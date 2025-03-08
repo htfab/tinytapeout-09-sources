@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1731256823
+use tt_asw_3v3  x1
+timestamp 1731256823
+transform 1 0 6104 0 1 -5137
+box 0 0 3612 4352
+use tt_asw_3v3  x2
+timestamp 1731256823
+transform -1 0 9755 0 -1 4116
+box 0 0 3612 4352
+<< end >>

@@ -1,0 +1,29 @@
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot.sch
+.subckt mux4onehot select1 VDD VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 select0
+*.PININFO VSS:I VDD:I A1:B A2:B A3:B A4:B Z1:B Z2:B Z3:B Z4:B SELECT0:I SELECT1:I
+x1 VSS VDD gno0 gno1 gno2 gno3 gpo0 gpo1 gpo2 gpo3 SELECT0 SELECT1 passgatesCtrl
+x2 gpo2 gpo1 gpo0 VDD gpo3 VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 gno2 gno1 gno0 gno3 passgatex4
+.ends
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sym # of pins=18
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sch
+.subckt passgatex4 GP3 GP2 GP1 VDD GP4 VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 GN3 GN2 GN1 GN4
+*.PININFO VDD:I VSS:I GP1:I GN1:I A1:B Z1:B GP2:I GN2:I A2:B Z2:B GP3:I GN3:I A3:B Z3:B GP4:I GN4:I A4:B Z4:B
+x1 Z1 A1 GP1 GN1 VSS VDD passgate
+x2 Z2 A2 GP2 GN2 VSS VDD passgate
+x3 Z3 A3 GP3 GN3 VSS VDD passgate
+x4 Z4 A4 GP4 GN4 VSS VDD passgate
+.ends
+
+
+* expanding   symbol:  /home/ttuser/tt08-wowa2/xschem/passgate.sym # of pins=6
+** sym_path: /home/ttuser/tt08-wowa2/xschem/passgate.sym
+** sch_path: /home/ttuser/tt08-wowa2/xschem/passgate.sch
+.subckt passgate Z A GP GN VSSBPIN VCCBPIN
+*.PININFO GN:I VCCBPIN:I VSSBPIN:I GP:I A:B Z:B
+XM1 Z GN A VSSBPIN sky130_fd_pr__nfet_01v8_lvt L=0.35 W=8 nf=1 m=2
+XM3 Z GP A VCCBPIN sky130_fd_pr__pfet_01v8_lvt L=0.35 W=10 nf=1 m=2
+.ends
+
+.end

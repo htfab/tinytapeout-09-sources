@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1727641294
+use passgate  passgate_0
+timestamp 1727641004
+transform -1 0 476 0 1 0
+box 112 42 358 2004
+use transistor_quartet_single  transistor_quartet_single_0
+timestamp 1727641294
+transform 1 0 0 0 1 0
+box -48 0 527 2076
+<< end >>

@@ -1,0 +1,20 @@
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sch
+.subckt passgatesCtrlManual SEL0 SEL1 SEL2 gno0 gpo0 gno1 gpo1 gno2 gpo2 gno3 gpo3 nSEL2 VPWR VGND
+*.PININFO SEL0:I SEL1:I SEL2:I gno0:O gpo0:O gno1:O gpo1:O gno2:O gpo2:O gno3:O gpo3:O nSEL2:O VPWR:I VGND:I
+x1 SEL0 VGND VGND VPWR VPWR nSEL0 sky130_fd_sc_hd__inv_2
+x2 SEL1 VGND VGND VPWR VPWR nSEL1 sky130_fd_sc_hd__inv_2
+x7 nSEL0 nSEL1 VGND VGND VPWR VPWR gno0 sky130_fd_sc_hd__and2_1
+x10 SEL1 SEL0 VGND VGND VPWR VPWR gno3 sky130_fd_sc_hd__and2_1
+x11 gno0 VGND VGND VPWR VPWR gpo0 sky130_fd_sc_hd__inv_2
+x12 gno1 VGND VGND VPWR VPWR gpo1 sky130_fd_sc_hd__inv_2
+x13 gno2 VGND VGND VPWR VPWR gpo2 sky130_fd_sc_hd__inv_2
+x14 gno3 VGND VGND VPWR VPWR gpo3 sky130_fd_sc_hd__inv_2
+x15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x8 SEL1 SEL0 VGND VGND VPWR VPWR gno1 sky130_fd_sc_hd__and2b_1
+x9 SEL0 SEL1 VGND VGND VPWR VPWR gno2 sky130_fd_sc_hd__and2b_1
+x18 SEL2 VGND VGND VPWR VPWR nSEL2 sky130_fd_sc_hd__inv_2
+x19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+.ends
+.end

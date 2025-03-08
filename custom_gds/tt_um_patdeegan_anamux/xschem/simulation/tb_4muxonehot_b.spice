@@ -1,0 +1,159 @@
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/tb_4muxonehot_b.sch
+**.subckt tb_4muxonehot_b
+V2 net1 VSS sin(0.9 0.9 250k)
+V3 net2 VSS sin(0.9 0.9 5Meg)
+V5 net3 VSS sin(0.9 0.9 500k)
+V6 net4 VSS sin(0.9 0.9 1Meg)
+R2 IN1 net1 1 m=1
+R3 IN2 net3 1 m=1
+R4 IN3 net4 1 m=1
+R5 IN4 net2 1 m=1
+R6 OUT4 VSS 100k m=1
+R1 OUT3 VSS 100k m=1
+R7 OUT2 VSS 100k m=1
+R8 OUT1 VSS 10k m=1
+R9 OUTMUXED VSS 100k m=1
+x1 SEL1 VSS IN1 IN3 OUT1 IN2 IN4 SEL0 OUT4 OUT3 VCC OUT2 VSS net5 mux4onehot_b_parax
+x2 SEL1 VSS IN1 IN3 OUTMUXED IN2 IN4 SEL0 OUTMUXED OUTMUXED VCC OUTMUXED VSS net6 mux4onehot_b_parax
+**** begin user architecture code
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot_b.sym # of pins=14
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot_b.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot_b.sch
+.subckt mux4onehot_b select1 VDD VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 select0 select2 nselect2
+*.ipin select0
+*.ipin select1
+*.ipin select2
+*.iopin A1
+*.iopin A2
+*.iopin A3
+*.iopin A4
+*.iopin Z1
+*.iopin Z2
+*.iopin Z3
+*.iopin Z4
+*.opin nselect2
+*.ipin VDD
+*.ipin VSS
+x2 gpo2 gpo1 gpo0 VDD gpo3 VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 gno2 gno1 gno0 gno3 passgatex4
+x1 gpo0 gno0 gno1 gpo1 select0 select1 gno2 gpo2 nselect2 select2 gno3 gpo3 VDD VSS passgatesCtrlManual
+.ends
+
+
+* expanding   symbol:  mux4onehot_b_parax.sym # of pins=14
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot_b.sym
+.include /home/ttuser/vmswap/tt09-analogmux/xschem/extracted/mux4onehot_b_parax.spice
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sym # of pins=18
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sch
+.subckt passgatex4 GP3 GP2 GP1 VDD GP4 VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 GN3 GN2 GN1 GN4
+*.ipin VDD
+*.ipin VSS
+*.ipin GP1
+*.ipin GN1
+*.iopin A1
+*.iopin Z1
+*.ipin GP2
+*.ipin GN2
+*.iopin A2
+*.iopin Z2
+*.ipin GP3
+*.ipin GN3
+*.iopin A3
+*.iopin Z3
+*.ipin GP4
+*.ipin GN4
+*.iopin A4
+*.iopin Z4
+x1 Z1 A1 GP1 GN1 VSS VDD passgate
+x2 Z2 A2 GP2 GN2 VSS VDD passgate
+x3 Z3 A3 GP3 GN3 VSS VDD passgate
+x4 Z4 A4 GP4 GN4 VSS VDD passgate
+.ends
+
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sym # of pins=14
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sch
+.subckt passgatesCtrlManual gpo0 gno0 gno1 gpo1 SEL0 SEL1 gno2 gpo2 nSEL2 SEL2 gno3 gpo3 VDD VSS
+*.ipin SEL0
+*.ipin SEL1
+*.ipin SEL2
+*.opin gno0
+*.opin gpo0
+*.opin gno1
+*.opin gpo1
+*.opin gno2
+*.opin gpo2
+*.opin gno3
+*.opin gpo3
+*.opin nSEL2
+*.ipin VDD
+*.ipin VSS
+x1 SEL0 VSS VSS VDD VDD nSEL0 sky130_fd_sc_hd__inv_2
+x2 SEL1 VSS VSS VDD VDD nSEL1 sky130_fd_sc_hd__inv_2
+x7 nSEL0 nSEL1 VSS VSS VDD VDD gno0 sky130_fd_sc_hd__and2_1
+x10 SEL1 SEL0 VSS VSS VDD VDD gno3 sky130_fd_sc_hd__and2_1
+x11 gno0 VSS VSS VDD VDD gpo0 sky130_fd_sc_hd__inv_2
+x12 gno1 VSS VSS VDD VDD gpo1 sky130_fd_sc_hd__inv_2
+x13 gno2 VSS VSS VDD VDD gpo2 sky130_fd_sc_hd__inv_2
+x14 gno3 VSS VSS VDD VDD gpo3 sky130_fd_sc_hd__inv_2
+x15 VSS VSS VDD VDD sky130_fd_sc_hd__decap_4
+x16 VSS VSS VDD VDD sky130_fd_sc_hd__decap_4
+x17 VSS VSS VDD VDD sky130_fd_sc_hd__decap_4
+x8 SEL1 SEL0 VSS VSS VDD VDD gno1 sky130_fd_sc_hd__and2b_1
+x9 SEL0 SEL1 VSS VSS VDD VDD gno2 sky130_fd_sc_hd__and2b_1
+x18 SEL2 VSS VSS VDD VDD nSEL2 sky130_fd_sc_hd__inv_2
+x19 VSS VSS VDD VDD sky130_fd_sc_hd__decap_4
+.ends
+
+
+* expanding   symbol:  /home/ttuser/tt08-wowa2/xschem/passgate.sym # of pins=6
+** sym_path: /home/ttuser/tt08-wowa2/xschem/passgate.sym
+** sch_path: /home/ttuser/tt08-wowa2/xschem/passgate.sch
+.subckt passgate Z A GP GN VSSBPIN VCCBPIN
+*.ipin GN
+*.ipin VCCBPIN
+*.ipin VSSBPIN
+*.ipin GP
+*.iopin A
+*.iopin Z
+XM1 Z GN A VSSBPIN sky130_fd_pr__nfet_01v8_lvt L=0.35 W=8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XM3 Z GP A VCCBPIN sky130_fd_pr__pfet_01v8_lvt L=0.35 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+.ends
+
+**** begin user architecture code
+
+
+* ngspice commands
+* .options savecurrents
+.param VCC = 1.8
+.param SRCRES = 1k
+.include stimuli_tb_4muxonehot_b.cir
+.control
+save all
+op
+write tb_4muxonehot_b.raw
+set appendwrite
+tran 50n 80u
+write tb_4muxonehot_b.raw
+* quit 0
+.endc
+
+
+
+**** end user architecture code
+.end

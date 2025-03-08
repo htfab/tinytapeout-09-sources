@@ -1,0 +1,40 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1730970317
+<< error_s >>
+rect 278 3041 313 3075
+rect 279 3022 313 3041
+rect 298 -17 313 3022
+rect 332 2988 367 3022
+rect 627 2988 662 3022
+rect 332 -17 366 2988
+rect 628 2969 662 2988
+rect 332 -51 347 -17
+rect 647 -70 662 2969
+rect 681 2935 716 2969
+rect 976 2935 1011 2969
+rect 681 -70 715 2935
+rect 977 2916 1011 2935
+rect 681 -104 696 -70
+rect 996 -123 1011 2916
+rect 1030 2882 1065 2916
+rect 1030 -123 1064 2882
+rect 1030 -157 1045 -123
+use sky130_fd_pr__res_xhigh_po_0p35_KNBXRF  XR1
+timestamp 1730970317
+transform 1 0 148 0 1 1529
+box -201 -1582 201 1582
+use sky130_fd_pr__res_xhigh_po_0p35_KNBXRF  XR2
+timestamp 1730970317
+transform 1 0 497 0 1 1476
+box -201 -1582 201 1582
+use sky130_fd_pr__res_xhigh_po_0p35_KNBXRF  XR3
+timestamp 1730970317
+transform 1 0 846 0 1 1423
+box -201 -1582 201 1582
+use sky130_fd_pr__res_xhigh_po_0p35_KNBXRF  XR4
+timestamp 1730970317
+transform 1 0 1195 0 1 1370
+box -201 -1582 201 1582
+<< end >>

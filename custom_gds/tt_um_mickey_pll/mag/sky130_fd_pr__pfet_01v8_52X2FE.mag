@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1726197802
+<< nwell >>
+rect -257 -112 257 112
+<< pmos >>
+rect -159 -50 -129 50
+rect -63 -50 -33 50
+rect 33 -50 63 50
+rect 129 -50 159 50
+<< pdiff >>
+rect -221 38 -159 50
+rect -221 -38 -209 38
+rect -175 -38 -159 38
+rect -221 -50 -159 -38
+rect -129 38 -63 50
+rect -129 -38 -113 38
+rect -79 -38 -63 38
+rect -129 -50 -63 -38
+rect -33 38 33 50
+rect -33 -38 -17 38
+rect 17 -38 33 38
+rect -33 -50 33 -38
+rect 63 38 129 50
+rect 63 -38 79 38
+rect 113 -38 129 38
+rect 63 -50 129 -38
+rect 159 38 221 50
+rect 159 -38 175 38
+rect 209 -38 221 38
+rect 159 -50 221 -38
+<< pdiffc >>
+rect -209 -38 -175 38
+rect -113 -38 -79 38
+rect -17 -38 17 38
+rect 79 -38 113 38
+rect 175 -38 209 38
+<< poly >>
+rect -159 50 -129 76
+rect -63 50 -33 76
+rect 33 50 63 76
+rect 129 50 159 76
+rect -159 -76 -129 -50
+rect -63 -76 -33 -50
+rect 33 -76 63 -50
+rect 129 -76 159 -50
+<< locali >>
+rect -209 38 -175 54
+rect -209 -54 -175 -38
+rect -113 38 -79 54
+rect -113 -54 -79 -38
+rect -17 38 17 54
+rect -17 -54 17 -38
+rect 79 38 113 54
+rect 79 -54 113 -38
+rect 175 38 209 54
+rect 175 -54 209 -38
+<< labels >>
+flabel locali -192 0 -192 0 0 FreeSans 80 0 0 0 d
+flabel poly -159 -50 -129 50 0 FreeSans 80 0 0 0 g
+flabel locali -96 0 -96 0 0 FreeSans 80 0 0 0 s
+flabel poly -63 -50 -33 50 0 FreeSans 80 0 0 0 g
+flabel locali 0 0 0 0 0 FreeSans 80 0 0 0 d
+flabel poly 33 -50 63 50 0 FreeSans 80 0 0 0 g
+flabel locali 192 0 192 0 0 FreeSans 80 0 0 0 d
+flabel locali 96 0 96 0 0 FreeSans 80 0 0 0 s
+flabel poly 129 -50 159 50 0 FreeSans 80 0 0 0 g
+<< properties >>
+string gencell sky130_fd_pr__pfet_01v8
+string library sky130
+string parameters w 0.5 l 0.15 m 1 nf 4 diffcov 100 polycov 100 guard 0 glc 0 grc 0 gtc 0 gbc 0 tbcov 100 rlcov 100 topc 0 botc 0 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 0 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

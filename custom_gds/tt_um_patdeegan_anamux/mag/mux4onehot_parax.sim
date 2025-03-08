@@ -1,0 +1,644 @@
+| units: 500000 tech: sky130A format: MIT
+x passgatesCtrl_0.net2 a_n597_n2040# VGND VGND s=2268,138 d=4368,272 l=30 w=84 x=-379 y=-2191 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-3198 y=-3279 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-162 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-3198 y=-2191 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=210 w=174 x=-2922 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x a_n1361_n1429# passgatex4_0.GN3 VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-1358 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net5 VGND a_n1361_n1429# VGND s=3016,162 d=5408,312 l=30 w=104 x=-1270 y=-1301 sky130_fd_pr__nfet_01v8
+x select1 a_n2480_n4368# VGND VGND s=4368,272 d=3880,195 l=30 w=84 x=-2427 y=-4367 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-3198 y=-3483 sky130_fd_pr__nfet_01v8
+x a_n2189_n1429# passgatex4_0.GP3 VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-2186 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net9 VPWR a_n2189_n1429# VPWR s=4582,216 d=8216,420 l=30 w=158 x=-2098 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n2975_n2192# VGND passgatesCtrl_0.net6 VGND s=3016,162 d=5408,312 l=30 w=104 x=-2834 y=-2191 sky130_fd_pr__nfet_01v8
+x a_n988_n4394# VGND a_n1084_n4216# VGND s=3880,195 d=4368,272 l=30 w=84 x=-987 y=-4367 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=210 w=110 x=-2922 y=-4367 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net2 a_n2161_n4368# VPWR VPWR s=4368,272 d=5630,265 l=30 w=84 x=-2108 y=-4001 sky130_fd_pr__pfet_01v8_hvt
+x a_n715_n3850# passgatesCtrl_0._04_ VPWR VPWR s=10400,504 d=9116,348 l=30 w=200 x=-714 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-162 y=-3003 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net10 VGND a_n1913_n1429# VGND s=3016,162 d=5408,312 l=30 w=104 x=-1822 y=-1301 sky130_fd_pr__nfet_01v8
+x a_n1003_n2040# a_n1045_n1942# a_n1173_n2218# VPWR s=1764,126 d=4368,272 l=30 w=84 x=-1002 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x a_n951_n2736# VGND passgatex4_0.GN2 VGND s=3016,162 d=5408,312 l=30 w=104 x=-810 y=-2389 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 VGND a_n801_n4216# VGND s=3880,195 d=4368,272 l=30 w=84 x=-704 y=-4367 sky130_fd_pr__nfet_01v8
+x a_n1085_n1429# passgatex4_0.GP2 VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-1082 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x passgatex4_0.GN3 A3 Z3 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=2750 y=-2787 sky130_fd_pr__nfet_01v8_lvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-3198 y=-4091 sky130_fd_pr__pfet_01v8_hvt
+x passgatex4_0.GN3 A3 Z3 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=2750 y=-4605 sky130_fd_pr__nfet_01v8_lvt
+x a_n1459_n3306# a_n1635_n3306# VPWR VPWR s=2436,142 d=2856,152 l=30 w=84 x=-1368 y=-2913 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 a_n2429_n1328# passgatesCtrl_0.net10 VGND s=3510,184 d=6760,364 l=30 w=130 x=-2374 y=-1327 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0._01_ a_n1503_n2192# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-1450 y=-2191 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net3 a_n1227_n2736# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-1174 y=-2389 sky130_fd_pr__nfet_01v8
+x a_n995_n3605# passgatesCtrl_0.net4 VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-990 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x a_n491_n3280# VGND passgatex4_0.GP1 VGND s=3016,162 d=5408,312 l=30 w=104 x=-350 y=-3279 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net7 a_n491_n3280# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-438 y=-3279 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0._00_ a_n2883_n1648# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-2830 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=946 w=110 x=-2278 y=-2395 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 VPWR a_n715_n3850# VPWR s=9116,348 d=2436,142 l=30 w=84 x=-536 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x a_n1637_n1429# passgatex4_0.GN4 VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-1634 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n1227_n2736# VPWR passgatex4_0.GN1 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-1086 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x a_n675_n1648# VPWR passgatesCtrl_0.net7 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-534 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0._02_ a_n675_n1648# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-622 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatex4_0.GP3 Z3 A3 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=3214 y=-2694 sky130_fd_pr__pfet_01v8_lvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-3198 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x select0 VGND a_n482_n4216# VGND s=3880,195 d=4368,272 l=30 w=84 x=-385 y=-4367 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-3198 y=-1307 sky130_fd_pr__nfet_01v8
+x a_n2015_n2040# a_n2057_n1942# a_n2185_n2218# VPWR s=1764,126 d=4368,272 l=30 w=84 x=-2014 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=394 w=174 x=-990 y=-3003 sky130_fd_pr__pfet_01v8_hvt
+x a_n1635_n3306# passgatesCtrl_0._03_ VGND VGND s=6760,364 d=4052,198 l=30 w=130 x=-1634 y=-3279 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-3198 y=-1915 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=210 w=174 x=-1450 y=-4091 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0._05_ a_n2975_n2192# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-2922 y=-1899 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-162 y=-2395 sky130_fd_pr__nfet_01v8
+x a_n1635_n3306# passgatesCtrl_0._03_ VPWR VPWR s=10400,504 d=9116,348 l=30 w=200 x=-1634 y=-3029 sky130_fd_pr__pfet_01v8_hvt
+x passgatex4_0.GP2 Z2 A2 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=2144 y=-2688 sky130_fd_pr__pfet_01v8_lvt
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-3198 y=-4367 sky130_fd_pr__nfet_01v8
+x a_n1984_n4368# a_n1878_n4368# VGND VGND s=4368,272 d=3880,195 l=30 w=84 x=-1825 y=-4367 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=210 w=174 x=-2922 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net9 VGND a_n2189_n1429# VGND s=3016,162 d=5408,312 l=30 w=104 x=-2098 y=-1301 sky130_fd_pr__nfet_01v8
+x a_n1173_n2218# passgatesCtrl_0._01_ VPWR VPWR s=10800,508 d=5930,268 l=30 w=200 x=-1172 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=210 w=110 x=-2462 y=-3483 sky130_fd_pr__nfet_01v8
+x a_n1003_n2040# a_n1173_n2218# VGND VGND s=2268,138 d=6300,234 l=30 w=84 x=-990 y=-2185 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net2 VGND a_n2429_n1328# VGND s=6760,364 d=3510,184 l=30 w=130 x=-2458 y=-1327 sky130_fd_pr__nfet_01v8
+x a_n1173_n2218# passgatesCtrl_0._01_ VGND VGND s=7020,368 d=4075,198 l=30 w=130 x=-1172 y=-2191 sky130_fd_pr__nfet_01v8
+x a_n995_n3605# passgatesCtrl_0.net4 VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-990 y=-3477 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=946 w=110 x=-2094 y=-3483 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 VGND a_n1003_n2040# VGND s=6300,234 d=4368,272 l=30 w=84 x=-810 y=-2185 sky130_fd_pr__nfet_01v8
+x a_n1085_n1429# passgatex4_0.GP2 VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-1082 y=-1301 sky130_fd_pr__nfet_01v8
+x a_n2480_n4368# VGND passgatesCtrl_0.net2 VGND s=3880,195 d=6760,364 l=30 w=130 x=-2332 y=-4367 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 VPWR a_n1459_n3306# VPWR s=2856,152 d=4368,272 l=30 w=84 x=-1270 y=-2913 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-2922 y=-3003 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net8 VPWR a_n1085_n1429# VPWR s=4582,216 d=8216,420 l=30 w=158 x=-994 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n539_n3518# a_n587_n3458# a_n715_n3850# VGND s=2016,132 d=4368,272 l=30 w=84 x=-538 y=-3457 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 VGND a_n587_n3458# VGND s=4052,198 d=2016,132 l=30 w=84 x=-616 y=-3457 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=578 w=110 x=-2646 y=-3279 sky130_fd_pr__nfet_01v8
+x a_n2480_n4368# VPWR passgatesCtrl_0.net2 VPWR s=5630,265 d=10400,504 l=30 w=200 x=-2332 y=-4117 sky130_fd_pr__pfet_01v8_hvt
+x a_n1503_n2192# VGND passgatesCtrl_0.net8 VGND s=3016,162 d=5408,312 l=30 w=104 x=-1362 y=-2191 sky130_fd_pr__nfet_01v8
+x a_n1227_n2736# VGND passgatex4_0.GN1 VGND s=3016,162 d=5408,312 l=30 w=104 x=-1086 y=-2389 sky130_fd_pr__nfet_01v8
+x passgatex4_0.GP4 Z4 A4 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=4270 y=-4922 sky130_fd_pr__pfet_01v8_lvt
+x passgatex4_0.GN4 A4 Z4 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=3806 y=-2779 sky130_fd_pr__nfet_01v8_lvt
+x passgatex4_0.GN2 A2 Z2 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=1680 y=-4599 sky130_fd_pr__nfet_01v8_lvt
+x passgatesCtrl_0._03_ a_n1963_n3280# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-1910 y=-2987 sky130_fd_pr__pfet_01v8_hvt
+x a_n801_n4216# a_n988_n4394# VGND VGND s=6760,364 d=3880,195 l=30 w=130 x=-799 y=-4367 sky130_fd_pr__nfet_01v8
+x a_n2883_n1648# VPWR passgatesCtrl_0.net9 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-2742 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=210 w=110 x=-1450 y=-4367 sky130_fd_pr__nfet_01v8
+x a_n539_n3518# a_n715_n3850# VPWR VPWR s=2436,142 d=2856,152 l=30 w=84 x=-448 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0._00_ a_n2883_n1648# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-2830 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net6 VPWR a_n1637_n1429# VPWR s=4582,216 d=8216,420 l=30 w=158 x=-1546 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n801_n4216# a_n988_n4394# VPWR VPWR s=10400,504 d=5630,265 l=30 w=200 x=-799 y=-4117 sky130_fd_pr__pfet_01v8_hvt
+x a_n1637_n1429# passgatex4_0.GN4 VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-1634 y=-1301 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-162 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n2185_n2218# passgatesCtrl_0._00_ VPWR VPWR s=10800,508 d=5930,268 l=30 w=200 x=-2184 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x passgatex4_0.GN2 A2 Z2 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=1680 y=-2781 sky130_fd_pr__nfet_01v8_lvt
+x a_n1084_n4216# a_n1135_n4368# VGND VGND s=6760,364 d=3880,195 l=30 w=130 x=-1082 y=-4367 sky130_fd_pr__nfet_01v8
+x a_n675_n1648# VGND passgatesCtrl_0.net7 VGND s=3016,162 d=5408,312 l=30 w=104 x=-534 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 passgatesCtrl_0.net10 VPWR VPWR s=5400,254 d=10400,504 l=30 w=200 x=-2374 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n1084_n4216# a_n1135_n4368# VPWR VPWR s=10400,504 d=5630,265 l=30 w=200 x=-1082 y=-4117 sky130_fd_pr__pfet_01v8_hvt
+x a_n2185_n2218# passgatesCtrl_0._00_ VGND VGND s=7020,368 d=4075,198 l=30 w=130 x=-2184 y=-2191 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net2 a_n539_n3518# VGND VGND s=4368,272 d=4368,272 l=30 w=84 x=-350 y=-3457 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net2 VGND a_n1173_n2218# VGND s=4075,198 d=2268,138 l=30 w=84 x=-1074 y=-2185 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net2 a_n2161_n4368# VGND VGND s=4368,272 d=3880,195 l=30 w=84 x=-2108 y=-4367 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-162 y=-3279 sky130_fd_pr__nfet_01v8
+x a_n2975_n2192# VPWR passgatesCtrl_0.net6 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-2834 y=-1899 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-3198 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-162 y=-2191 sky130_fd_pr__nfet_01v8
+x a_n2639_n2040# passgatesCtrl_0._05_ VPWR VPWR s=19000,590 d=6662,278 l=30 w=200 x=-2602 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-162 y=-3483 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=210 w=110 x=-2922 y=-2395 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net2 VGND a_n2465_n2164# VGND s=4472,208 d=2268,138 l=30 w=84 x=-2494 y=-2163 sky130_fd_pr__nfet_01v8
+x a_n2639_n2040# passgatesCtrl_0._05_ VGND VGND s=7280,372 d=4472,208 l=30 w=130 x=-2602 y=-2191 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net4 a_n951_n2736# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-898 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 VGND a_n2015_n2040# VGND s=6300,234 d=4368,272 l=30 w=84 x=-1822 y=-2185 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-3198 y=-3003 sky130_fd_pr__pfet_01v8_hvt
+x a_n1913_n1429# passgatex4_0.GP4 VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-1910 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0._01_ a_n1503_n2192# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-1450 y=-1899 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-162 y=-4091 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 passgatesCtrl_0.net3 VGND VGND s=3510,184 d=6760,364 l=30 w=130 x=-442 y=-2415 sky130_fd_pr__nfet_01v8
+x passgatex4_0.GP1 Z1 A1 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=1074 y=-2690 sky130_fd_pr__pfet_01v8_lvt
+x a_n482_n4216# passgatesCtrl_0.net1 VGND VGND s=6760,364 d=3880,195 l=30 w=130 x=-480 y=-4367 sky130_fd_pr__nfet_01v8
+x select1 a_n2480_n4368# VPWR VPWR s=4368,272 d=5630,265 l=30 w=84 x=-2427 y=-4001 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 VGND a_n2185_n2218# VGND s=4075,198 d=2268,138 l=30 w=84 x=-2086 y=-2185 sky130_fd_pr__nfet_01v8
+x a_n1878_n4368# VGND a_n1701_n4368# VGND s=3880,195 d=6760,364 l=30 w=130 x=-1730 y=-4367 sky130_fd_pr__nfet_01v8
+x a_n482_n4216# passgatesCtrl_0.net1 VPWR VPWR s=10400,504 d=5630,265 l=30 w=200 x=-480 y=-4117 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net8 VGND a_n1085_n1429# VGND s=3016,162 d=5408,312 l=30 w=104 x=-994 y=-1301 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=946 w=174 x=-2278 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=394 w=110 x=-990 y=-3279 sky130_fd_pr__nfet_01v8
+x passgatex4_0.GN4 A4 Z4 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=3806 y=-4597 sky130_fd_pr__nfet_01v8_lvt
+x a_n1878_n4368# VPWR a_n1701_n4368# VPWR s=5630,265 d=10400,504 l=30 w=200 x=-1730 y=-4117 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 VPWR passgatesCtrl_0.net10 VPWR s=10400,504 d=5400,254 l=30 w=200 x=-2458 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 VPWR a_n2639_n2040# VPWR s=6662,278 d=2268,138 l=30 w=84 x=-2494 y=-1867 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 a_n1003_n2040# VPWR VPWR s=4704,280 d=4368,272 l=30 w=84 x=-810 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0._03_ a_n1963_n3280# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-1910 y=-3279 sky130_fd_pr__nfet_01v8
+x a_n1963_n3280# VPWR passgatesCtrl_0.net5 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-1822 y=-2987 sky130_fd_pr__pfet_01v8_hvt
+x a_n988_n4394# VPWR a_n1084_n4216# VPWR s=5630,265 d=4368,272 l=30 w=84 x=-987 y=-4001 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 VPWR a_n539_n3518# VPWR s=2856,152 d=4368,272 l=30 w=84 x=-350 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x a_n2883_n1648# VGND passgatesCtrl_0.net9 VGND s=3016,162 d=5408,312 l=30 w=104 x=-2742 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net6 VGND a_n1637_n1429# VGND s=3016,162 d=5408,312 l=30 w=104 x=-1546 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 VPWR a_n801_n4216# VPWR s=5630,265 d=4368,272 l=30 w=84 x=-704 y=-4001 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 a_n2465_n2164# a_n2639_n2040# VGND s=2268,138 d=4704,280 l=30 w=84 x=-2410 y=-2163 sky130_fd_pr__nfet_01v8
+x passgatex4_0.GP3 Z3 A3 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=3214 y=-4930 sky130_fd_pr__pfet_01v8_lvt
+x a_n597_n2040# passgatesCtrl_0._02_ VPWR VPWR s=13600,536 d=5830,267 l=30 w=200 x=-560 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-162 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-162 y=-1307 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0._04_ VPWR a_n995_n3605# VPWR s=4582,216 d=8216,420 l=30 w=158 x=-902 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 VGND a_n1507_n3280# VGND s=4052,198 d=2016,132 l=30 w=84 x=-1536 y=-3279 sky130_fd_pr__nfet_01v8
+x a_n1459_n3306# a_n1507_n3280# a_n1635_n3306# VGND s=2016,132 d=4368,272 l=30 w=84 x=-1458 y=-3279 sky130_fd_pr__nfet_01v8
+x a_n597_n2040# passgatesCtrl_0._02_ VGND VGND s=6760,364 d=4010,197 l=30 w=130 x=-560 y=-2191 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-3198 y=-2395 sky130_fd_pr__nfet_01v8
+x passgatex4_0.GP2 Z2 A2 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=2144 y=-4924 sky130_fd_pr__pfet_01v8_lvt
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-162 y=-1915 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net4 a_n951_n2736# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-898 y=-2389 sky130_fd_pr__nfet_01v8
+x a_n715_n3850# passgatesCtrl_0._04_ VGND VGND s=6760,364 d=4052,198 l=30 w=130 x=-714 y=-3503 sky130_fd_pr__nfet_01v8
+x a_n1361_n1429# passgatex4_0.GN3 VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-1358 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net5 VPWR a_n1361_n1429# VPWR s=4582,216 d=8216,420 l=30 w=158 x=-1270 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n2015_n2040# a_n2185_n2218# VGND VGND s=2268,138 d=6300,234 l=30 w=84 x=-2002 y=-2185 sky130_fd_pr__nfet_01v8
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-162 y=-4367 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=210 w=174 x=-2462 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=118 w=110 x=-2922 y=-3279 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 a_n2639_n2040# VPWR VPWR s=2268,138 d=4704,280 l=30 w=84 x=-2410 y=-1867 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 VPWR a_n1045_n1942# VPWR s=5930,268 d=1764,126 l=30 w=84 x=-1074 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x a_n2189_n1429# passgatex4_0.GP3 VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-2186 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0._05_ a_n2975_n2192# VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-2922 y=-2191 sky130_fd_pr__nfet_01v8
+x select0 VPWR a_n482_n4216# VPWR s=5630,265 d=4368,272 l=30 w=84 x=-385 y=-4001 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 VGND passgatesCtrl_0.net3 VGND s=6760,364 d=3510,184 l=30 w=130 x=-526 y=-2415 sky130_fd_pr__nfet_01v8
+x passgatex4_0.GP1 Z1 A1 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=1074 y=-4926 sky130_fd_pr__pfet_01v8_lvt
+x VGND VPWR VPWR VPWR d=9048,452 l=946 w=174 x=-2094 y=-3823 sky130_fd_pr__pfet_01v8_hvt
+x VPWR VGND VGND VGND d=5720,324 l=210 w=110 x=-2922 y=-3483 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 a_n1459_n3306# VGND VGND s=4368,272 d=4368,272 l=30 w=84 x=-1270 y=-3279 sky130_fd_pr__nfet_01v8
+x a_n2161_n4368# VGND a_n1984_n4368# VGND s=3880,195 d=6760,364 l=30 w=130 x=-2013 y=-4367 sky130_fd_pr__nfet_01v8
+x a_n1913_n1429# passgatex4_0.GP4 VGND VGND s=5408,312 d=3016,162 l=30 w=104 x=-1910 y=-1301 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net10 VPWR a_n1913_n1429# VPWR s=4582,216 d=8216,420 l=30 w=158 x=-1822 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x a_n2161_n4368# VPWR a_n1984_n4368# VPWR s=5630,265 d=10400,504 l=30 w=200 x=-2013 y=-4117 sky130_fd_pr__pfet_01v8_hvt
+x a_n1503_n2192# VPWR passgatesCtrl_0.net8 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-1362 y=-1899 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 a_n434_n1942# a_n597_n2040# VPWR s=1764,126 d=4368,272 l=30 w=84 x=-391 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 a_n2015_n2040# VPWR VPWR s=4704,280 d=4368,272 l=30 w=84 x=-1822 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x a_n1984_n4368# a_n1878_n4368# VPWR VPWR s=4368,272 d=5630,265 l=30 w=84 x=-1825 y=-4001 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net2 VPWR a_n1635_n3306# VPWR s=9116,348 d=2436,142 l=30 w=84 x=-1456 y=-2913 sky130_fd_pr__pfet_01v8_hvt
+x a_n951_n2736# VPWR passgatex4_0.GN2 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-810 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=210 w=174 x=-2922 y=-4091 sky130_fd_pr__pfet_01v8_hvt
+x a_n1963_n3280# VGND passgatesCtrl_0.net5 VGND s=3016,162 d=5408,312 l=30 w=104 x=-1822 y=-3279 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net1 VPWR a_n434_n1942# VPWR s=5830,267 d=1764,126 l=30 w=84 x=-463 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x a_n491_n3280# VPWR passgatex4_0.GP1 VPWR s=4582,216 d=8216,420 l=30 w=158 x=-350 y=-2987 sky130_fd_pr__pfet_01v8_hvt
+x passgatex4_0.GP4 Z4 A4 VPWR s=116000,4116 d=116000,4116 l=70 w=2000 x=4270 y=-2686 sky130_fd_pr__pfet_01v8_lvt
+x passgatesCtrl_0.net7 a_n491_n3280# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-438 y=-2987 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 VPWR a_n2057_n1942# VPWR s=5930,268 d=1764,126 l=30 w=84 x=-2086 y=-1941 sky130_fd_pr__pfet_01v8_hvt
+x passgatex4_0.GN1 A1 Z1 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=610 y=-2783 sky130_fd_pr__nfet_01v8_lvt
+x passgatesCtrl_0._04_ VGND a_n995_n3605# VGND s=3016,162 d=5408,312 l=30 w=104 x=-902 y=-3477 sky130_fd_pr__nfet_01v8
+x VGND VPWR VPWR VPWR d=9048,452 l=118 w=174 x=-3198 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 VGND a_n597_n2040# VGND s=4010,197 d=2268,138 l=30 w=84 x=-463 y=-2191 sky130_fd_pr__nfet_01v8
+x passgatesCtrl_0.net2 a_n485_n2736# passgatesCtrl_0.net3 VPWR s=4200,242 d=10400,504 l=30 w=200 x=-442 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net3 a_n1227_n2736# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-1174 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+x passgatex4_0.GN1 A1 Z1 VGND s=92800,3316 d=92800,3316 l=70 w=1600 x=610 y=-4601 sky130_fd_pr__nfet_01v8_lvt
+x passgatesCtrl_0._02_ a_n675_n1648# VPWR VPWR s=8216,420 d=4582,216 l=30 w=158 x=-622 y=-1647 sky130_fd_pr__pfet_01v8_hvt
+x VGND VPWR VPWR VPWR d=9048,452 l=578 w=174 x=-2646 y=-3003 sky130_fd_pr__pfet_01v8_hvt
+x passgatesCtrl_0.net1 VPWR a_n485_n2736# VPWR s=10400,504 d=4200,242 l=30 w=200 x=-514 y=-2735 sky130_fd_pr__pfet_01v8_hvt
+C A3 passgatex4_0.GN3 3.8
+C VPWR Z3 2.9
+C VPWR Z4 2.8
+C passgatex4_0.GN3 passgatex4_0.GP3 2.4
+C passgatex4_0.GN4 A4 3.8
+C VPWR passgatesCtrl_0.net2 3.0
+C A2 passgatex4_0.GP2 4.0
+C passgatex4_0.GP2 passgatex4_0.GN3 2.4
+C A1 Z1 4.5
+C VPWR Z1 3.0
+C passgatex4_0.GN4 passgatex4_0.GP3 3.2
+C passgatex4_0.GN4 passgatex4_0.GP4 3.4
+C VPWR passgatesCtrl_0.net1 2.6
+C A4 A3 2.1
+C A1 passgatex4_0.GP1 4.0
+C VPWR passgatex4_0.GP1 2.3
+C passgatex4_0.GN1 A1 5.0
+C A4 passgatex4_0.GP4 4.0
+C A2 passgatex4_0.GN2 3.8
+C VPWR Z2 2.8
+C A4 Z4 4.5
+C Z2 A2 4.5
+C A3 passgatex4_0.GP3 4.0
+C Z3 A3 4.5
+C Z40 2.2
+R Z4 23666
+= Z4 passgatex4_0.x4.Z
+= Z4 passgatex4_0.Z4
+C A40 3.4
+R A4 23679
+= A4 passgatex4_0.x4.A
+= A4 passgatex4_0.A4
+C Z30 2.3
+R Z3 23666
+= Z3 passgatex4_0.x3.Z
+= Z3 passgatex4_0.Z3
+C A30 2.9
+R A3 23679
+= A3 passgatex4_0.x3.A
+= A3 passgatex4_0.A3
+C Z20 2.3
+R Z2 23666
+= Z2 passgatex4_0.x2.Z
+= Z2 passgatex4_0.Z2
+C A20 3.0
+R A2 23679
+= A2 passgatex4_0.x2.A
+= A2 passgatex4_0.A2
+C Z10 2.4
+R Z1 23666
+= Z1 passgatex4_0.x1.Z
+= Z1 passgatex4_0.Z1
+C A10 3.4
+R A1 23679
+= A1 passgatex4_0.x1.A
+= A1 passgatex4_0.A1
+R select0 811
+= select0 passgatesCtrl_0.input1.A
+= select0 passgatesCtrl_0.select[0]
+R select1 822
+= select1 passgatesCtrl_0.input2.A
+= select1 passgatesCtrl_0.select[1]
+C VPWR0 100.1
+R VPWR 310479
+= VPWR passgatesCtrl_0._06_.VPB
+= VPWR passgatesCtrl_0._06_.VPWR
+= VPWR passgatesCtrl_0._07_.VPB
+= VPWR passgatesCtrl_0._07_.VPWR
+= VPWR passgatesCtrl_0._08_.VPB
+= VPWR passgatesCtrl_0._08_.VPWR
+= VPWR passgatesCtrl_0._09_.VPB
+= VPWR passgatesCtrl_0._09_.VPWR
+= VPWR passgatesCtrl_0._10_.VPWR
+= VPWR passgatesCtrl_0._10_.VPB
+= VPWR passgatesCtrl_0._11_.VPWR
+= VPWR passgatesCtrl_0._11_.VPB
+= VPWR passgatesCtrl_0._12_.VPB
+= VPWR passgatesCtrl_0._12_.VPWR
+= VPWR passgatesCtrl_0._13_.VPB
+= VPWR passgatesCtrl_0._13_.VPWR
+= VPWR passgatesCtrl_0._14_.VPB
+= VPWR passgatesCtrl_0._14_.VPWR
+= VPWR passgatesCtrl_0._15_.VPB
+= VPWR passgatesCtrl_0._15_.VPWR
+= VPWR passgatesCtrl_0._16_.VPB
+= VPWR passgatesCtrl_0._16_.VPWR
+= VPWR passgatesCtrl_0._17_.VPWR
+= VPWR passgatesCtrl_0._17_.VPB
+= VPWR passgatesCtrl_0._18_.VPB
+= VPWR passgatesCtrl_0._18_.VPWR
+= VPWR passgatesCtrl_0._19_.VPB
+= VPWR passgatesCtrl_0._19_.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_0_3.VPB
+= VPWR passgatesCtrl_0.FILLER_0_0_3.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_0_8.VPB
+= VPWR passgatesCtrl_0.FILLER_0_0_8.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_0_32.VPB
+= VPWR passgatesCtrl_0.FILLER_0_0_32.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_1_17.VPB
+= VPWR passgatesCtrl_0.FILLER_0_1_17.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_2_3.VPB
+= VPWR passgatesCtrl_0.FILLER_0_2_3.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_2_7.VPB
+= VPWR passgatesCtrl_0.FILLER_0_2_7.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_2_14.VPB
+= VPWR passgatesCtrl_0.FILLER_0_2_14.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_2_26.VPB
+= VPWR passgatesCtrl_0.FILLER_0_2_26.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_2_29.VPB
+= VPWR passgatesCtrl_0.FILLER_0_2_29.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_3_6.VPB
+= VPWR passgatesCtrl_0.FILLER_0_3_6.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_3_12.VPB
+= VPWR passgatesCtrl_0.FILLER_0_3_12.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_3_22.VPB
+= VPWR passgatesCtrl_0.FILLER_0_3_22.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_3_30.VPB
+= VPWR passgatesCtrl_0.FILLER_0_3_30.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_4_12.VPB
+= VPWR passgatesCtrl_0.FILLER_0_4_12.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_4_24.VPB
+= VPWR passgatesCtrl_0.FILLER_0_4_24.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_4_29.VPB
+= VPWR passgatesCtrl_0.FILLER_0_4_29.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_5_13.VPB
+= VPWR passgatesCtrl_0.FILLER_0_5_13.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_5_17.VPB
+= VPWR passgatesCtrl_0.FILLER_0_5_17.VPWR
+= VPWR passgatesCtrl_0.FILLER_0_5_29.VPB
+= VPWR passgatesCtrl_0.FILLER_0_5_29.VPWR
+= VPWR passgatesCtrl_0.input1.VPB
+= VPWR passgatesCtrl_0.input1.VPWR
+= VPWR passgatesCtrl_0.input2.VPB
+= VPWR passgatesCtrl_0.input2.VPWR
+= VPWR passgatesCtrl_0.output3.VPB
+= VPWR passgatesCtrl_0.output3.VPWR
+= VPWR passgatesCtrl_0.output4.VPB
+= VPWR passgatesCtrl_0.output4.VPWR
+= VPWR passgatesCtrl_0.output5.VPB
+= VPWR passgatesCtrl_0.output5.VPWR
+= VPWR passgatesCtrl_0.output6.VPB
+= VPWR passgatesCtrl_0.output6.VPWR
+= VPWR passgatesCtrl_0.output7.VPB
+= VPWR passgatesCtrl_0.output7.VPWR
+= VPWR passgatesCtrl_0.output8.VPB
+= VPWR passgatesCtrl_0.output8.VPWR
+= VPWR passgatesCtrl_0.output9.VPB
+= VPWR passgatesCtrl_0.output9.VPWR
+= VPWR passgatesCtrl_0.output10.VPB
+= VPWR passgatesCtrl_0.output10.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_0_Left_6.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_0_Left_6.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_0_Right_0.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_0_Right_0.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_1_Left_7.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_1_Left_7.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_1_Right_1.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_1_Right_1.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_2_Left_8.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_2_Left_8.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_2_Right_2.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_2_Right_2.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_3_Left_9.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_3_Left_9.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_3_Right_3.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_3_Right_3.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_4_Left_10.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_4_Left_10.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_4_Right_4.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_4_Right_4.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_5_Left_11.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_5_Left_11.VPWR
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_5_Right_5.VPB
+= VPWR passgatesCtrl_0.PHY_EDGE_ROW_5_Right_5.VPWR
+= VPWR passgatesCtrl_0.TAP_TAPCELL_ROW_0_12.VPWR
+= VPWR passgatesCtrl_0.TAP_TAPCELL_ROW_2_13.VPWR
+= VPWR passgatesCtrl_0.TAP_TAPCELL_ROW_4_14.VPWR
+= VPWR passgatesCtrl_0.TAP_TAPCELL_ROW_5_15.VPWR
+= VPWR passgatesCtrl_0.VPWR
+= VPWR passgatex4_0.x1.VCCBPIN
+= VPWR passgatex4_0.x2.VCCBPIN
+= VPWR passgatex4_0.x3.VCCBPIN
+= VPWR passgatex4_0.x4.VCCBPIN
+= VPWR passgatex4_0.VCC
+R a_n1135_n4368# 1189
+R a_n1701_n4368# 1189
+R a_n482_n4216# 1466
+R a_n801_n4216# 1463
+R a_n988_n4394# 1962
+R a_n1084_n4216# 1464
+R a_n1878_n4368# 1464
+R a_n1984_n4368# 1962
+R a_n2161_n4368# 1463
+R a_n2480_n4368# 1466
+R a_n587_n3458# 210
+R a_n539_n3518# 1547
+R a_n715_n3850# 1427
+R passgatesCtrl_0._04_ 2050
+= passgatesCtrl_0._04_ passgatesCtrl_0._15_.X
+= passgatesCtrl_0._04_ passgatesCtrl_0._16_.A
+R a_n995_n3605# 1875
+R a_n1507_n3280# 210
+C passgatex4_0.GP10 2.3
+R passgatex4_0.GP1 4322
+= passgatex4_0.GP1 passgatesCtrl_0.output7.X
+= passgatex4_0.GP1 passgatesCtrl_0.gpo0
+= passgatex4_0.GP1 passgatex4_0.x1.GP
+R a_n491_n3280# 1873
+R a_n1459_n3306# 1547
+R a_n1635_n3306# 1427
+R a_n1963_n3280# 1875
+R passgatesCtrl_0._03_ 2051
+= passgatesCtrl_0._03_ passgatesCtrl_0._13_.X
+= passgatesCtrl_0._03_ passgatesCtrl_0._14_.A
+R a_n485_n2736# 938
+C passgatex4_0.GN20 4.3
+R passgatex4_0.GN2 3746
+= passgatex4_0.GN2 passgatesCtrl_0.output4.X
+= passgatex4_0.GN2 passgatesCtrl_0.gno1
+= passgatex4_0.GN2 passgatex4_0.x2.GN
+C passgatex4_0.GN10 4.0
+R passgatex4_0.GN1 3745
+= passgatex4_0.GN1 passgatesCtrl_0.output3.X
+= passgatex4_0.GN1 passgatesCtrl_0.gno0
+= passgatex4_0.GN1 passgatex4_0.x1.GN
+R a_n951_n2736# 1873
+R passgatesCtrl_0.net4 1847
+= passgatesCtrl_0.net4 passgatesCtrl_0._16_.X
+= passgatesCtrl_0.net4 passgatesCtrl_0.output4.A
+R a_n1227_n2736# 1873
+R passgatesCtrl_0.net3 2058
+= passgatesCtrl_0.net3 passgatesCtrl_0._17_.Y
+= passgatesCtrl_0.net3 passgatesCtrl_0.output3.A
+R a_n434_n1942# 394
+R a_n1045_n1942# 394
+R a_n1003_n2040# 1220
+R a_n2465_n2164# 187
+R a_n2057_n1942# 394
+R a_n2015_n2040# 1220
+R a_n597_n2040# 1531
+R a_n1173_n2218# 1518
+R a_n1503_n2192# 1875
+R passgatesCtrl_0._01_ 2013
+= passgatesCtrl_0._01_ passgatesCtrl_0._08_.X
+= passgatesCtrl_0._01_ passgatesCtrl_0._09_.A
+R a_n2185_n2218# 1518
+R a_n2639_n2040# 1517
+R a_n2975_n2192# 1875
+R passgatesCtrl_0._05_ 1679
+= passgatesCtrl_0._05_ passgatesCtrl_0._18_.X
+= passgatesCtrl_0._05_ passgatesCtrl_0._19_.A
+R passgatesCtrl_0.net7 1849
+= passgatesCtrl_0.net7 passgatesCtrl_0._12_.X
+= passgatesCtrl_0.net7 passgatesCtrl_0.output7.A
+C passgatex4_0.GP20 2.2
+R passgatex4_0.GP2 4321
+= passgatex4_0.GP2 passgatesCtrl_0.output8.X
+= passgatex4_0.GP2 passgatesCtrl_0.gpo1
+= passgatex4_0.GP2 passgatex4_0.x2.GP
+C passgatex4_0.GN30 3.8
+R passgatex4_0.GN3 3750
+= passgatex4_0.GN3 passgatesCtrl_0.output5.X
+= passgatex4_0.GN3 passgatesCtrl_0.gno2
+= passgatex4_0.GN3 passgatex4_0.x3.GN
+C passgatex4_0.GN40 5.2
+R passgatex4_0.GN4 3759
+= passgatex4_0.GN4 passgatesCtrl_0.output6.X
+= passgatex4_0.GN4 passgatesCtrl_0.gno3
+= passgatex4_0.GN4 passgatex4_0.x4.GN
+C passgatex4_0.GP40 5.2
+R passgatex4_0.GP4 4339
+= passgatex4_0.GP4 passgatesCtrl_0.output10.X
+= passgatex4_0.GP4 passgatesCtrl_0.gpo3
+= passgatex4_0.GP4 passgatex4_0.x4.GP
+C passgatex4_0.GP30 2.2
+R passgatex4_0.GP3 4329
+= passgatex4_0.GP3 passgatesCtrl_0.output9.X
+= passgatex4_0.GP3 passgatesCtrl_0.gpo2
+= passgatex4_0.GP3 passgatex4_0.x3.GP
+R a_n2429_n1328# 289
+R a_n675_n1648# 1875
+R passgatesCtrl_0._02_ 1828
+= passgatesCtrl_0._02_ passgatesCtrl_0._11_.X
+= passgatesCtrl_0._02_ passgatesCtrl_0._12_.A
+R passgatesCtrl_0.net8 1846
+= passgatesCtrl_0.net8 passgatesCtrl_0._09_.X
+= passgatesCtrl_0.net8 passgatesCtrl_0.output8.A
+R a_n1085_n1429# 1873
+R passgatesCtrl_0.net5 1853
+= passgatesCtrl_0.net5 passgatesCtrl_0._14_.X
+= passgatesCtrl_0.net5 passgatesCtrl_0.output5.A
+R a_n1361_n1429# 1873
+R passgatesCtrl_0.net6 1850
+= passgatesCtrl_0.net6 passgatesCtrl_0._19_.X
+= passgatesCtrl_0.net6 passgatesCtrl_0.output6.A
+R a_n1637_n1429# 1873
+R passgatesCtrl_0.net10 2004
+= passgatesCtrl_0.net10 passgatesCtrl_0._10_.Y
+= passgatesCtrl_0.net10 passgatesCtrl_0.output10.A
+R a_n1913_n1429# 1873
+R passgatesCtrl_0.net9 1846
+= passgatesCtrl_0.net9 passgatesCtrl_0._07_.X
+= passgatesCtrl_0.net9 passgatesCtrl_0.output9.A
+R a_n2189_n1429# 1873
+C passgatesCtrl_0.net10 2.7
+R passgatesCtrl_0.net1 9072
+= passgatesCtrl_0.net1 passgatesCtrl_0._06_.A
+= passgatesCtrl_0.net1 passgatesCtrl_0._08_.B_N
+= passgatesCtrl_0.net1 passgatesCtrl_0._10_.A
+= passgatesCtrl_0.net1 passgatesCtrl_0._11_.A
+= passgatesCtrl_0.net1 passgatesCtrl_0._13_.A_N
+= passgatesCtrl_0.net1 passgatesCtrl_0._15_.B
+= passgatesCtrl_0.net1 passgatesCtrl_0._17_.A
+= passgatesCtrl_0.net1 passgatesCtrl_0._18_.A
+= passgatesCtrl_0.net1 passgatesCtrl_0.input1.X
+C passgatesCtrl_0.net20 4.1
+R passgatesCtrl_0.net2 9029
+= passgatesCtrl_0.net2 passgatesCtrl_0._06_.B_N
+= passgatesCtrl_0.net2 passgatesCtrl_0._08_.A
+= passgatesCtrl_0.net2 passgatesCtrl_0._10_.B
+= passgatesCtrl_0.net2 passgatesCtrl_0._11_.B
+= passgatesCtrl_0.net2 passgatesCtrl_0._13_.B
+= passgatesCtrl_0.net2 passgatesCtrl_0._15_.A_N
+= passgatesCtrl_0.net2 passgatesCtrl_0._17_.B
+= passgatesCtrl_0.net2 passgatesCtrl_0._18_.B
+= passgatesCtrl_0.net2 passgatesCtrl_0.input2.X
+R a_n2883_n1648# 1875
+R passgatesCtrl_0._00_ 2018
+= passgatesCtrl_0._00_ passgatesCtrl_0._06_.X
+= passgatesCtrl_0._00_ passgatesCtrl_0._07_.A
+R VGND 249636
+= VGND passgatesCtrl_0._07_.VNB
+= VGND passgatesCtrl_0._06_.VGND
+= VGND passgatesCtrl_0._08_.VNB
+= VGND passgatesCtrl_0._07_.VGND
+= VGND passgatesCtrl_0._09_.VNB
+= VGND passgatesCtrl_0._08_.VGND
+= VGND passgatesCtrl_0._10_.VNB
+= VGND passgatesCtrl_0._09_.VGND
+= VGND passgatesCtrl_0._10_.VGND
+= VGND passgatesCtrl_0._11_.VNB
+= VGND passgatesCtrl_0._11_.VGND
+= VGND passgatesCtrl_0._12_.VNB
+= VGND passgatesCtrl_0._13_.VNB
+= VGND passgatesCtrl_0._12_.VGND
+= VGND passgatesCtrl_0._14_.VNB
+= VGND passgatesCtrl_0._13_.VGND
+= VGND passgatesCtrl_0._15_.VNB
+= VGND passgatesCtrl_0._14_.VGND
+= VGND passgatesCtrl_0._16_.VNB
+= VGND passgatesCtrl_0._15_.VGND
+= VGND passgatesCtrl_0._17_.VNB
+= VGND passgatesCtrl_0._16_.VGND
+= VGND passgatesCtrl_0._17_.VGND
+= VGND passgatesCtrl_0._18_.VNB
+= VGND passgatesCtrl_0._19_.VNB
+= VGND passgatesCtrl_0._18_.VGND
+= VGND passgatesCtrl_0.FILLER_0_0_3.VNB
+= VGND passgatesCtrl_0._19_.VGND
+= VGND passgatesCtrl_0.FILLER_0_0_8.VNB
+= VGND passgatesCtrl_0.FILLER_0_0_3.VGND
+= VGND passgatesCtrl_0.FILLER_0_0_32.VNB
+= VGND passgatesCtrl_0.FILLER_0_0_8.VGND
+= VGND passgatesCtrl_0.FILLER_0_1_17.VNB
+= VGND passgatesCtrl_0.FILLER_0_0_32.VGND
+= VGND passgatesCtrl_0.FILLER_0_2_3.VNB
+= VGND passgatesCtrl_0.FILLER_0_1_17.VGND
+= VGND passgatesCtrl_0.FILLER_0_2_7.VNB
+= VGND passgatesCtrl_0.FILLER_0_2_3.VGND
+= VGND passgatesCtrl_0.FILLER_0_2_14.VNB
+= VGND passgatesCtrl_0.FILLER_0_2_7.VGND
+= VGND passgatesCtrl_0.FILLER_0_2_26.VNB
+= VGND passgatesCtrl_0.FILLER_0_2_14.VGND
+= VGND passgatesCtrl_0.FILLER_0_2_29.VNB
+= VGND passgatesCtrl_0.FILLER_0_2_26.VGND
+= VGND passgatesCtrl_0.FILLER_0_3_6.VNB
+= VGND passgatesCtrl_0.FILLER_0_2_29.VGND
+= VGND passgatesCtrl_0.FILLER_0_3_12.VNB
+= VGND passgatesCtrl_0.FILLER_0_3_6.VGND
+= VGND passgatesCtrl_0.FILLER_0_3_22.VNB
+= VGND passgatesCtrl_0.FILLER_0_3_12.VGND
+= VGND passgatesCtrl_0.FILLER_0_3_30.VNB
+= VGND passgatesCtrl_0.FILLER_0_3_22.VGND
+= VGND passgatesCtrl_0.FILLER_0_4_12.VNB
+= VGND passgatesCtrl_0.FILLER_0_3_30.VGND
+= VGND passgatesCtrl_0.FILLER_0_4_24.VNB
+= VGND passgatesCtrl_0.FILLER_0_4_12.VGND
+= VGND passgatesCtrl_0.FILLER_0_4_29.VNB
+= VGND passgatesCtrl_0.FILLER_0_4_24.VGND
+= VGND passgatesCtrl_0.FILLER_0_5_13.VNB
+= VGND passgatesCtrl_0.FILLER_0_4_29.VGND
+= VGND passgatesCtrl_0.FILLER_0_5_17.VNB
+= VGND passgatesCtrl_0.FILLER_0_5_13.VGND
+= VGND passgatesCtrl_0.FILLER_0_5_29.VNB
+= VGND passgatesCtrl_0.FILLER_0_5_17.VGND
+= VGND passgatesCtrl_0.input1.VNB
+= VGND passgatesCtrl_0.FILLER_0_5_29.VGND
+= VGND passgatesCtrl_0.input2.VNB
+= VGND passgatesCtrl_0.input1.VGND
+= VGND passgatesCtrl_0.output3.VNB
+= VGND passgatesCtrl_0.input2.VGND
+= VGND passgatesCtrl_0.output4.VNB
+= VGND passgatesCtrl_0.output3.VGND
+= VGND passgatesCtrl_0.output5.VNB
+= VGND passgatesCtrl_0.output4.VGND
+= VGND passgatesCtrl_0.output6.VNB
+= VGND passgatesCtrl_0.output5.VGND
+= VGND passgatesCtrl_0.output7.VNB
+= VGND passgatesCtrl_0.output6.VGND
+= VGND passgatesCtrl_0.output8.VNB
+= VGND passgatesCtrl_0.output7.VGND
+= VGND passgatesCtrl_0.output9.VNB
+= VGND passgatesCtrl_0.output8.VGND
+= VGND passgatesCtrl_0.output10.VNB
+= VGND passgatesCtrl_0.output9.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_0_Left_6.VNB
+= VGND passgatesCtrl_0.output10.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_0_Right_0.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_0_Left_6.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_1_Left_7.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_0_Right_0.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_1_Right_1.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_1_Left_7.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_2_Left_8.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_1_Right_1.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_2_Right_2.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_2_Left_8.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_3_Left_9.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_2_Right_2.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_3_Right_3.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_3_Left_9.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_4_Left_10.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_3_Right_3.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_4_Right_4.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_4_Left_10.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_5_Left_11.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_4_Right_4.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_5_Right_5.VNB
+= VGND passgatesCtrl_0._06_.VNB
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_5_Left_11.VGND
+= VGND passgatesCtrl_0.PHY_EDGE_ROW_5_Right_5.VGND
+= VGND passgatesCtrl_0.TAP_TAPCELL_ROW_0_12.VGND
+= VGND passgatesCtrl_0.TAP_TAPCELL_ROW_2_13.VGND
+= VGND passgatesCtrl_0.TAP_TAPCELL_ROW_4_14.VGND
+= VGND passgatesCtrl_0.TAP_TAPCELL_ROW_5_15.VGND
+= VGND passgatesCtrl_0.VGND
+= VGND passgatex4_0.x1.VSSBPIN
+= VGND passgatex4_0.x2.VSSBPIN
+= VGND passgatex4_0.x3.VSSBPIN
+= VGND passgatex4_0.x4.VSSBPIN
+= VGND passgatex4_0.VSS

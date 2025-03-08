@@ -1,0 +1,226 @@
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/tb_ringtest.sch
+**.subckt tb_ringtest
+R6 OUT VSS 100k m=1
+x1 EN_R SEL0 OUT EN_C SEL1 VSS VCC ringtest_parax
+**** begin user architecture code
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/ringtest.sym # of pins=7
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/ringtest.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/ringtest.sch
+.subckt ringtest VDD VSS enable_ring select0 select1 enable_counter mux_out
+*.ipin VDD
+*.ipin VSS
+*.ipin enable_ring
+*.ipin select0
+*.ipin select1
+*.ipin enable_counter
+*.opin mux_out
+x3 select1 VDD VSS counter3 drv_out ring_out mux_out mux_out mux_out counter7 mux_out select0 VDD net1 mux4onehot_b
+x4 VSS VDD drv_out enable_counter net2 net3 net4 counter3 net5 net6 net7 counter7 net8 net9 simplecounter
+x1 VDD VSS enable_ring ring_out ring
+x2 VDD VSS ring_out drv_out driver
+.ends
+
+
+* expanding   symbol:  ringtest_parax.sym # of pins=7
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/ringtest.sym
+.include /home/ttuser/vmswap/tt09-analogmux/xschem/extracted/ringtest_parax.spice
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot_b.sym # of pins=14
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot_b.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mux4onehot_b.sch
+.subckt mux4onehot_b select1 VDD VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 select0 select2 nselect2
+*.ipin select0
+*.ipin select1
+*.ipin select2
+*.iopin A1
+*.iopin A2
+*.iopin A3
+*.iopin A4
+*.iopin Z1
+*.iopin Z2
+*.iopin Z3
+*.iopin Z4
+*.opin nselect2
+*.ipin VDD
+*.ipin VSS
+x2 gpo2 gpo1 gpo0 VDD gpo3 VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 gno2 gno1 gno0 gno3 passgatex4
+x1 gpo0 gno0 gno1 gpo1 select0 select1 gno2 gpo2 nselect2 select2 gno3 gpo3 VDD VSS passgatesCtrlManual
+.ends
+
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/mattring/ring.sym # of pins=4
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mattring/ring.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mattring/ring.sch
+.subckt ring VDD VSS enable out
+*.iopin VDD
+*.ipin enable
+*.iopin VSS
+*.opin out
+x2 enable net18 VSS VSS VDD VDD out sky130_fd_sc_hd__nand2_2
+x1 VDD VSS out net1 inverter
+x3 VDD VSS net1 net2 inverter
+x4 VDD VSS net2 net3 inverter
+x5 VDD VSS net3 net4 inverter
+x6 VDD VSS net4 net5 inverter
+x7 VDD VSS net5 net6 inverter
+x8 VDD VSS net6 net7 inverter
+x9 VDD VSS net7 net8 inverter
+x10 VDD VSS net8 net9 inverter
+x11 VDD VSS net9 net10 inverter
+x12 VDD VSS net10 net11 inverter
+x13 VDD VSS net11 net12 inverter
+x14 VDD VSS net12 net13 inverter
+x15 VDD VSS net13 net14 inverter
+x16 VDD VSS net14 net15 inverter
+x17 VDD VSS net15 net16 inverter
+x18 VDD VSS net16 net17 inverter
+x19 VDD VSS net17 net18 inverter
+.ends
+
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/mattring/driver.sym # of pins=4
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mattring/driver.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mattring/driver.sch
+.subckt driver VDD VSS in out
+*.iopin VDD
+*.iopin VSS
+*.opin out
+*.ipin in
+XM9 net1 in VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=9 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM10 net1 in VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM11 out net1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=72 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM12 out net1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=24 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sym # of pins=18
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sch
+.subckt passgatex4 GP3 GP2 GP1 VDD GP4 VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 GN3 GN2 GN1 GN4
+*.ipin VDD
+*.ipin VSS
+*.ipin GP1
+*.ipin GN1
+*.iopin A1
+*.iopin Z1
+*.ipin GP2
+*.ipin GN2
+*.iopin A2
+*.iopin Z2
+*.ipin GP3
+*.ipin GN3
+*.iopin A3
+*.iopin Z3
+*.ipin GP4
+*.ipin GN4
+*.iopin A4
+*.iopin Z4
+x1 Z1 A1 GP1 GN1 VSS VDD passgate
+x2 Z2 A2 GP2 GN2 VSS VDD passgate
+x3 Z3 A3 GP3 GN3 VSS VDD passgate
+x4 Z4 A4 GP4 GN4 VSS VDD passgate
+.ends
+
+
+* expanding   symbol:  /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sym # of pins=14
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sch
+.subckt passgatesCtrlManual gpo0 gno0 gno1 gpo1 SEL0 SEL1 gno2 gpo2 nSEL2 SEL2 gno3 gpo3 VPWR VGND
+*.ipin SEL0
+*.ipin SEL1
+*.ipin SEL2
+*.opin gno0
+*.opin gpo0
+*.opin gno1
+*.opin gpo1
+*.opin gno2
+*.opin gpo2
+*.opin gno3
+*.opin gpo3
+*.opin nSEL2
+*.ipin VPWR
+*.ipin VGND
+x1 SEL0 VGND VGND VPWR VPWR nSEL0 sky130_fd_sc_hd__inv_2
+x2 SEL1 VGND VGND VPWR VPWR nSEL1 sky130_fd_sc_hd__inv_2
+x7 nSEL0 nSEL1 VGND VGND VPWR VPWR gno0 sky130_fd_sc_hd__and2_1
+x10 SEL1 SEL0 VGND VGND VPWR VPWR gno3 sky130_fd_sc_hd__and2_1
+x11 gno0 VGND VGND VPWR VPWR gpo0 sky130_fd_sc_hd__inv_2
+x12 gno1 VGND VGND VPWR VPWR gpo1 sky130_fd_sc_hd__inv_2
+x13 gno2 VGND VGND VPWR VPWR gpo2 sky130_fd_sc_hd__inv_2
+x14 gno3 VGND VGND VPWR VPWR gpo3 sky130_fd_sc_hd__inv_2
+x15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x8 SEL1 SEL0 VGND VGND VPWR VPWR gno1 sky130_fd_sc_hd__and2b_1
+x9 SEL0 SEL1 VGND VGND VPWR VPWR gno2 sky130_fd_sc_hd__and2b_1
+x18 SEL2 VGND VGND VPWR VPWR nSEL2 sky130_fd_sc_hd__inv_2
+x19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+.ends
+
+
+* expanding   symbol:  inverter.sym # of pins=4
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/inverter.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/inverter.sch
+.subckt inverter VDD VSS in out
+*.opin out
+*.iopin VDD
+*.iopin VSS
+*.ipin in
+C6 in VSS 10fF m=1
+x1 in VSS VSS VDD VDD out sky130_fd_sc_hd__inv_2
+.ends
+
+
+* expanding   symbol:  /home/ttuser/tt08-wowa2/xschem/passgate.sym # of pins=6
+** sym_path: /home/ttuser/tt08-wowa2/xschem/passgate.sym
+** sch_path: /home/ttuser/tt08-wowa2/xschem/passgate.sch
+.subckt passgate Z A GP GN VSSBPIN VCCBPIN
+*.ipin GN
+*.ipin VCCBPIN
+*.ipin VSSBPIN
+*.ipin GP
+*.iopin A
+*.iopin Z
+XM1 Z GN A VSSBPIN sky130_fd_pr__nfet_01v8_lvt L=0.35 W=8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XM3 Z GP A VCCBPIN sky130_fd_pr__pfet_01v8_lvt L=0.35 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+.ends
+
+**** begin user architecture code
+
+
+* ngspice commands
+* .options savecurrents
+.param VCC = 1.8
+.param SRCRES = 1k
+.include stimuli_tb_ringtest.cir
+.control
+save all
+op
+write tb_ringtest.raw
+set appendwrite
+tran 0.3n 1.1u uic
+write tb_ringtest.raw
+quit 0
+.endc
+
+
+
+**** end user architecture code
+.end

@@ -1,0 +1,71 @@
+unit n
+voltage VCC
+slope 1
+format hspice_simple
+
+param eval 10
+
+beginfile stimuli_tb_anamux.cir
+set vss 0
+set vcc 1
+set vres 1
+set rsel0 0
+set rsel1 0
+set rsel2 0
+set sel0 0
+set sel1 1
+set en_counter 1
+set en_ring 1
+s 60
+set sel1 0
+set sel0 1
+s eval
+set sel0 0
+s eval
+set rsel0 1
+set rsel1 0
+s eval
+set rsel0 0
+set rsel1 1
+s eval
+set rsel0 1
+s eval
+
+set rsel0 0
+set rsel1 0
+set rsel2 1
+s eval
+
+
+set rsel0 1
+set rsel1 0
+set rsel2 1
+s eval
+
+
+set rsel0 0
+set rsel1 1
+set rsel2 1
+s eval
+
+set rsel0 1
+set rsel1 1
+set rsel2 1
+s eval
+
+set sel0 1
+s eval
+set sel0 0
+set sel1 1
+s eval
+
+set sel0 1
+set sel1 1
+s eval
+
+
+
+
+
+
+endfile

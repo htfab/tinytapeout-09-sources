@@ -1,0 +1,33 @@
+unit n
+voltage VCC
+slope 1
+format hspice_simple
+
+param eval 6000
+
+beginfile stimuli_tb_passgatex4.cir
+set vss 0
+set vcc 1
+set en1 0
+set en2 0
+set en3 0
+set en4 0
+s eval
+set en1 1
+s eval
+set en1 0
+s eval
+set en2 1
+s eval
+set en2 0
+s eval
+set en3 1
+s eval
+set en3 0
+s eval
+set en4 1
+s eval
+set en4 0
+endfile
+
+

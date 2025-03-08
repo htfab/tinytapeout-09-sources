@@ -1,0 +1,14 @@
+ Netlist File
+
+ **in**
+XC1/c0
+XR1/r1
+
+ **vss**
+XC1/c1
+XC2/c1
+
+ **out**
+XC2/c0
+XR1/r0
+

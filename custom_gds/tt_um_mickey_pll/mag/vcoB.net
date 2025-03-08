@@ -1,0 +1,87 @@
+ Netlist File
+
+ **vpb**
+XM1/d
+XM2/d
+XM2/g
+XM3/g
+
+ **vctrl**
+XM1/g
+vctrl
+
+ **vss**
+XM1/s
+x13/VSS
+XM4/s
+x12/VSS
+x1/VSS
+x2/VSS
+x3/VSS
+x4/VSS
+x5/VSS
+x6/VGND
+vss
+
+ **vpb**
+ x6/VPB
+
+ **vnb**
+ x6/VNB
+
+ **vdd**
+XM2/s
+XM3/s
+x6/VPWR
+XR3/r1
+vdd
+
+ **vo_5**
+x13/A
+x5/Y
+
+ **vo_12**
+x13/Y
+x12/A
+x6/A
+XM4/d
+
+ **vstarve**
+x13/VDD
+XM3/d
+x12/VDD
+x1/VDD
+x2/VDD
+x3/VDD
+x4/VDD
+x5/VDD
+XR3/r0
+
+ **vo_0**
+x12/Y
+x1/A
+
+ **vstart**
+XM4/g
+vstart
+
+ **vo_1**
+x1/Y
+x2/A
+
+ **vo_2**
+x2/Y
+x3/A
+
+ **vo_3**
+x3/Y
+x4/A
+
+ **vo_4**
+x4/Y
+x5/A
+
+ **vo**
+x6/Y
+vo
+

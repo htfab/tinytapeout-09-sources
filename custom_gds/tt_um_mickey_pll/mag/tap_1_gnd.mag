@@ -1,0 +1,32 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1726262061
+<< pwell >>
+rect 3 38 89 195
+<< psubdiff >>
+rect 29 145 63 169
+rect 29 64 63 111
+<< psubdiffcont >>
+rect 29 111 63 145
+<< locali >>
+rect 17 145 75 162
+rect 17 111 29 145
+rect 63 111 75 145
+rect 17 17 75 111
+rect 0 -17 29 17
+rect 63 -17 92 17
+<< viali >>
+rect 29 -17 63 17
+<< metal1 >>
+rect 0 17 92 48
+rect 0 -17 29 17
+rect 63 -17 92 17
+rect 0 -48 92 -17
+<< labels >>
+flabel metal1 s 32 -13 62 14 0 FreeSans 200 0 0 0 VGND
+port 1 nsew ground bidirectional abutment
+rlabel comment s 0 0 0 0 4 tapvgnd_1
+rlabel metal1 s 0 -48 92 48 1 VGND
+port 1 nsew ground bidirectional abutment
+<< end >>

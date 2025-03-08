@@ -1,0 +1,36 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1726200578
+<< nwell >>
+rect -38 261 130 582
+<< nsubdiff >>
+rect 29 447 63 480
+rect 29 363 63 413
+rect 29 305 63 329
+<< nsubdiffcont >>
+rect 29 413 63 447
+rect 29 329 63 363
+<< locali >>
+rect 0 527 29 561
+rect 63 527 92 561
+rect 17 447 75 527
+rect 17 413 29 447
+rect 63 413 75 447
+rect 17 363 75 413
+rect 17 329 29 363
+rect 63 329 75 363
+rect 17 294 75 329
+<< viali >>
+rect 29 527 63 561
+<< metal1 >>
+rect 0 561 92 592
+rect 0 527 29 561
+rect 63 527 92 561
+rect 0 496 92 527
+<< labels >>
+flabel metal1 s 26 535 69 555 0 FreeSans 200 0 0 0 VPWR
+port 4 nsew power bidirectional abutment
+rlabel metal1 s 0 496 92 592 1 VPWR
+port 4 nsew power bidirectional abutment
+<< end >>

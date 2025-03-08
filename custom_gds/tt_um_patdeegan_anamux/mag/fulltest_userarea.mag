@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1728364595
+use muxtest  muxtest_0
+timestamp 1728362514
+transform 0 1 18476 -1 0 19189
+box 4086 -15558 19281 -1352
+use ringtest  ringtest_0
+timestamp 1728347809
+transform 1 0 3834 0 1 11943
+box 13714 -11825 30474 2702
+<< end >>

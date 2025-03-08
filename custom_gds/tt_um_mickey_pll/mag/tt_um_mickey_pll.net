@@ -1,0 +1,92 @@
+ Netlist File
+
+ **vdd**
+x1/vdd
+x2/vdd
+x2/x5/VPWR
+x3/vdd
+x8/VPWR
+x9/VPWR
+x10/VPWR
+x11/VPWR
+x4/VPWR
+
+ **vss**
+x1/vss
+x2/vss
+x3/vss
+x8/VGND
+x9/VGND
+x2/x5/VGND
+x10/VGND
+x11/VGND
+x4/VGND
+x5/vss
+
+ **upb**
+x1/upb
+x2/upb
+
+ **up**
+ **x1/up**
+x2/up
+
+ **vcp**
+x1/out
+x5/in
+x3/vctrl
+
+ **down**
+x1/down
+x2/down
+
+ **downb**
+ **x1/downb**
+ **x2/downb**
+
+ **vref**
+x2/vref
+
+ **vosc_16**
+x2/vin
+x11/Q
+
+ **vosc**
+x3/vo
+x4/A
+
+ **vstart**
+x3/vstart
+
+ **voscb**
+x8/CLK
+x4/Y
+
+ **vosc_2b**
+x8/D
+x8/Q_N
+
+ **vosc_2**
+x8/Q
+x9/CLK
+
+ **vosc_4b**
+x9/D
+x9/Q_N
+
+ **vosc_4**
+x9/Q
+x10/CLK
+
+ **vosc_8b**
+x10/D
+x10/Q_N
+
+ **vosc_8**
+x10/Q
+x11/CLK
+
+ **vosc_16b**
+x11/D
+x11/Q_N
+

@@ -1,0 +1,55 @@
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/mux8onehot.sch
+.subckt mux8onehot select0 select1 select2 A1 A2 A3 A4 A5 A6 A7 A8 Z VDD VSS
+*.PININFO select0:I select1:I select2:I VDD:I VSS:I Z:B A1:B A2:B A3:B A4:B A5:B A6:B A7:B A8:B
+x4 OUT_HIGH select2 nSEL2 Z VDD VSS passgate
+x5 OUT_LOW nSEL2 select2 Z VDD VSS passgate
+x2 A1 gno0 gpo0 OUT_LOW A2 gno1 gpo1 OUT_LOW A3 gno2 gpo2 OUT_LOW A4 gno3 gpo3 OUT_LOW VDD VSS passgatex4
+x1 select0 select1 select2 gno0 gpo0 gno1 gpo1 gno2 gpo2 gno3 gpo3 nSEL2 VDD VSS passgatesCtrlManual
+x3 A5 gno0 gpo0 OUT_HIGH A6 gno1 gpo1 OUT_HIGH A7 gno2 gpo2 OUT_HIGH A8 gno3 gpo3 OUT_HIGH VDD VSS passgatex4
+.ends
+
+* expanding   symbol:  passgate.sym # of pins=6
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgate.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgate.sch
+.subckt passgate A GN GP Z VDD VSS
+*.PININFO GN:I VDD:I VSS:I GP:I A:B Z:B
+XM1 Z GN A VSS sky130_fd_pr__nfet_01v8_lvt L=0.35 W=8 nf=1 m=2
+XM3 Z GP A VDD sky130_fd_pr__pfet_01v8_lvt L=0.35 W=10 nf=1 m=2
+.ends
+
+
+* expanding   symbol:  passgatex4.sym # of pins=18
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatex4.sch
+.subckt passgatex4 A1 GN1 GP1 Z1 A2 GN2 GP2 Z2 A3 GN3 GP3 Z3 A4 GN4 GP4 Z4 VDD VSS
+*.PININFO VDD:I VSS:I GP1:I GN1:I A1:B Z1:B GP2:I GN2:I A2:B Z2:B GP3:I GN3:I A3:B Z3:B GP4:I GN4:I A4:B Z4:B
+x1 A1 GN1 GP1 Z1 VDD VSS passgate
+x2 A2 GN2 GP2 Z2 VDD VSS passgate
+x3 A3 GN3 GP3 Z3 VDD VSS passgate
+x4 A4 GN4 GP4 Z4 VDD VSS passgate
+.ends
+
+
+* expanding   symbol:  passgatesCtrlManual.sym # of pins=14
+** sym_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sym
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/passgatesCtrlManual.sch
+.subckt passgatesCtrlManual SEL0 SEL1 SEL2 gno0 gpo0 gno1 gpo1 gno2 gpo2 gno3 gpo3 nSEL2 VPWR VGND
+*.PININFO SEL0:I SEL1:I SEL2:I gno0:O gpo0:O gno1:O gpo1:O gno2:O gpo2:O gno3:O gpo3:O nSEL2:O VPWR:I VGND:I
+x1 SEL0 VGND VGND VPWR VPWR nSEL0 sky130_fd_sc_hd__inv_2
+x2 SEL1 VGND VGND VPWR VPWR nSEL1 sky130_fd_sc_hd__inv_2
+x7 nSEL0 nSEL1 VGND VGND VPWR VPWR gno0 sky130_fd_sc_hd__and2_1
+x10 SEL1 SEL0 VGND VGND VPWR VPWR gno3 sky130_fd_sc_hd__and2_1
+x11 gno0 VGND VGND VPWR VPWR gpo0 sky130_fd_sc_hd__inv_2
+x12 gno1 VGND VGND VPWR VPWR gpo1 sky130_fd_sc_hd__inv_2
+x13 gno2 VGND VGND VPWR VPWR gpo2 sky130_fd_sc_hd__inv_2
+x14 gno3 VGND VGND VPWR VPWR gpo3 sky130_fd_sc_hd__inv_2
+x15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+x8 SEL1 SEL0 VGND VGND VPWR VPWR gno1 sky130_fd_sc_hd__and2b_1
+x9 SEL0 SEL1 VGND VGND VPWR VPWR gno2 sky130_fd_sc_hd__and2b_1
+x18 SEL2 VGND VGND VPWR VPWR nSEL2 sky130_fd_sc_hd__inv_2
+x19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+.ends
+
+.end

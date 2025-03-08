@@ -1,0 +1,20 @@
+************************************** 
+* SPICE STIMULI FILE 
+* generated from 
+************************************** 
+
+Vsel0 sel0 0 PWL 0n 0 60n 0 61n VCC 70n VCC 71n 0 150n 
++0 151n VCC 160n VCC 161n 0 170n 0 171n VCC 
+Vrsel2 rsel2 0 PWL 0n 0 110n 0 111n VCC 
+Vsel1 sel1 0 PWL 0n VCC 60n VCC 61n 0 160n 0 161n VCC 
+Vvres vres 0 PWL 0n VCC 
+Vvss vss 0 PWL 0n 0 
+Ven_counter en_counter 0 PWL 0n VCC 
+Vvcc vcc 0 PWL 0n VCC 
+Ven_ring en_ring 0 PWL 0n VCC 
+Vrsel0 rsel0 0 PWL 0n 0 80n 0 81n VCC 90n VCC 91n 0 100n 
++0 101n VCC 110n VCC 111n 0 120n 0 121n VCC 130n VCC 131n 0 
++140n 0 141n VCC 
+Vrsel1 rsel1 0 PWL 0n 0 90n 0 91n VCC 110n VCC 111n 0 130n 
++0 131n VCC 
+

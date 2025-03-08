@@ -1,0 +1,107 @@
+** sch_path: /home/ttuser/vmswap/tt09-analogmux/xschem/tb_4to1mux.sch
+**.subckt tb_4to1mux
+V2 net1 VSS sin(0.9 0.9 250k)
+V3 net2 VSS sin(0.9 0.9 8Meg)
+V5 net3 VSS sin(0.9 0.9 500k)
+V6 net4 VSS sin(0.9 0.9 1Meg)
+R2 IN1 net1 1 m=1
+R3 IN2 net3 1 m=1
+R4 IN3 net4 1 m=1
+R5 IN4 net2 1 m=1
+x6 nEN3 nEN2 nEN1 VCC nEN4 VSS IN3 IN2 IN1 OUTPX OUTPX OUTPX IN4 OUTPX EN3 EN2 EN1 EN4 passgatex4_parax
+R6 OUTPX VSS 10k m=1
+x7 EN1 EN3 nEN1 nEN2 nEN3 nEN4 SEL0 VCC EN2 SEL1 EN4 VSS passgatesctrl_parax
+**** begin user architecture code
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /home/ttuser/work/tt09-analogmux/xschem/passgatex4.sym # of pins=18
+** sym_path: /home/ttuser/work/tt09-analogmux/xschem/passgatex4.sym
+** sch_path: /home/ttuser/work/tt09-analogmux/xschem/passgatex4.sch
+.subckt passgatex4 GP3 GP2 GP1 VDD GP4 VSS A3 A2 A1 Z3 Z1 Z2 A4 Z4 GN3 GN2 GN1 GN4
+*.ipin VDD
+*.ipin VSS
+*.ipin GP1
+*.ipin GN1
+*.iopin A1
+*.iopin Z1
+*.ipin GP2
+*.ipin GN2
+*.iopin A2
+*.iopin Z2
+*.ipin GP3
+*.ipin GN3
+*.iopin A3
+*.iopin Z3
+*.ipin GP4
+*.ipin GN4
+*.iopin A4
+*.iopin Z4
+x1 Z1 A1 GP1 GN1 VSS VDD passgate
+x2 Z2 A2 GP2 GN2 VSS VDD passgate
+x3 Z3 A3 GP3 GN3 VSS VDD passgate
+x4 Z4 A4 GP4 GN4 VSS VDD passgate
+.ends
+
+
+* expanding   symbol:  /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sym # of pins=12
+** sym_path: /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sym
+** sch_path: /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sch
+.subckt passgatesCtrl gno0 gno2 gpo0 gpo1 gpo2 gpo3 select0 VPWR gno1 select1 gno3 VGND
+.ends
+
+
+* expanding   symbol:  passgatex4_parax.sym # of pins=18
+** sym_path: /home/ttuser/work/tt09-analogmux/xschem/passgatex4.sym
+.include /home/ttuser/vmswap/tt09-analogmux/xschem/extracted/passgatex4_parax.spice
+
+* expanding   symbol:  passgatesctrl_parax.sym # of pins=12
+** sym_path: /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sym
+.include /home/ttuser/vmswap/tt09-analogmux/xschem/extracted/passgatesCtrl_parax.spice
+
+* expanding   symbol:  /home/ttuser/tt08-wowa2/xschem/passgate.sym # of pins=6
+** sym_path: /home/ttuser/tt08-wowa2/xschem/passgate.sym
+** sch_path: /home/ttuser/tt08-wowa2/xschem/passgate.sch
+.subckt passgate Z A GP GN VSSBPIN VCCBPIN
+*.ipin GN
+*.ipin VCCBPIN
+*.ipin VSSBPIN
+*.ipin GP
+*.iopin A
+*.iopin Z
+XM1 Z GN A VSSBPIN sky130_fd_pr__nfet_01v8_lvt L=0.35 W=8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+XM3 Z GP A VCCBPIN sky130_fd_pr__pfet_01v8_lvt L=0.35 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
+.ends
+
+**** begin user architecture code
+
+
+* ngspice commands
+* .options savecurrents
+.param VCC = 1.8
+.param SRCRES = 1k
+.include stimuli_tb_4to1mux.cir
+.control
+save all
+op
+write tb_4to1muxraw
+set appendwrite
+tran 10n 33u
+write tb_4to1mux.raw
+quit 0
+.endc
+
+
+
+**** end user architecture code
+.end

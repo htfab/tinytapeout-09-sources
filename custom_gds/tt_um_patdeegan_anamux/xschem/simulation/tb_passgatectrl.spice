@@ -1,0 +1,50 @@
+** sch_path: /home/ttuser/work/tt08-wowa2/xschem/tb_passgatectrl.sch
+**.subckt tb_passgatectrl
+x1 GNO0 GNO2 GPO0 GPO1 GPO2 GPO3 SEL0 VCC GNO1 SEL1 GNO3 VSS passgatesctrl_parax
+V1 VCC VSS 1.8
+V2 SEL0 VSS PULSE(0 1.8 1u 2n 2n 2u 4u)
+V4 VSS GND 0
+V3 SEL1 VSS PULSE(0 1.8 500n 1n 1n 1u 2u)
+**** begin user architecture code
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /home/ttuser/pdk/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sym # of pins=12
+** sym_path: /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sym
+** sch_path: /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sch
+.subckt passgatesCtrl gno0 gno2 gpo0 gpo1 gpo2 gpo3 select0 VDD gno1 select1 gno3 VSS
+.ends
+
+
+* expanding   symbol:  passgatesctrl_parax.sym # of pins=12
+** sym_path: /home/ttuser/work/tt08-wowa2/xschem/passgatesCtrl.sym
+.include /home/ttuser/vmswap/tt08-wowa2/xschem/extracted/passgatesCtrl_parax.spice
+.GLOBAL GND
+**** begin user architecture code
+
+
+* ngspice commands
+* .options savecurrents
+
+.control
+save all
+op
+write tb_passgatesctrl.raw
+set appendwrite
+tran 10n 10u
+write tb_passgatesctrl.raw
+quit 0
+.endc
+
+
+
+**** end user architecture code
+.end

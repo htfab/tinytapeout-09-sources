@@ -1,0 +1,51 @@
+ Netlist File
+
+ **vref**
+x1/CLK
+
+ **vdd**
+x1/D
+x1/VPWR
+x2/D
+x2/VPWR
+x3/VPWR
+x4/VPWR
+x5/VPWR
+
+ **rstb**
+x1/RESET_B
+x2/RESET_B
+x5/Y
+
+ **vss**
+x1/VGND
+x2/VGND
+x3/VGND
+x4/VGND
+x5/VGND
+
+ **net1**
+x1/Q
+x3/A
+
+ **upb**
+x1/Q_N
+
+ **vin**
+x2/CLK
+
+ **net2**
+x2/Q
+x4/A
+
+ **downb**
+x2/Q_N
+
+ **up**
+x3/X
+x5/A
+
+ **down**
+x4/X
+x5/B
+

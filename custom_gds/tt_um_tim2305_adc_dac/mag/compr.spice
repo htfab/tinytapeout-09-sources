@@ -1,0 +1,41 @@
+* NGSPICE file created from compr.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_64Z3AY a_15_n131# a_n175_n243# a_n33_91# a_n73_n131#
+X0 a_15_n131# a_n33_91# a_n73_n131# a_n175_n243# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_3H2EVM a_n100_n897# a_100_n800# w_n296_n1019# a_n158_n800#
+X0 a_100_n800# a_n100_n897# a_n158_n800# w_n296_n1019# sky130_fd_pr__pfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_AHMAL2 a_n260_n574# a_100_n400# a_n158_n400# a_n100_n488#
+X0 a_100_n400# a_n100_n488# a_n158_n400# a_n260_n574# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_AHRV9L a_n258_n400# a_n200_n488# a_n360_n574#
++ a_200_n400#
+X0 a_200_n400# a_n200_n488# a_n258_n400# a_n360_n574# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_GWPMZG a_n200_n897# a_200_n800# w_n396_n1019#
++ a_n258_n800#
+X0 a_200_n800# a_n200_n897# a_n258_n800# w_n396_n1019# sky130_fd_pr__pfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=2
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_MGSNAN a_n73_n336# a_15_n336# a_n33_295# w_n211_n484#
+X0 a_15_n336# a_n33_295# a_n73_n336# w_n211_n484# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+.ends
+
+.subckt compr out vdd in+ in- vss
+XXM1 out vss m1_2518_1378# vss sky130_fd_pr__nfet_01v8_64Z3AY
+XXM3 m1_1460_732# vdd vdd m1_1264_902# sky130_fd_pr__pfet_01v8_3H2EVM
+XXM4 vss vss m1_1264_902# m1_1460_732# sky130_fd_pr__nfet_01v8_lvt_AHMAL2
+XXM5 m1_1824_498# m1_1824_498# vss vss sky130_fd_pr__nfet_01v8_lvt_AHRV9L
+XXM6 m1_2518_1378# m1_2518_1378# vss vss sky130_fd_pr__nfet_01v8_lvt_AHRV9L
+XXM7 in- m1_2324_1380# vdd m1_1824_498# sky130_fd_pr__pfet_01v8_lvt_GWPMZG
+XXM8 m1_1264_902# vdd vdd m1_2324_1380# sky130_fd_pr__pfet_01v8_3H2EVM
+XXM9 in+ m1_2324_1380# vdd m1_2518_1378# sky130_fd_pr__pfet_01v8_lvt_GWPMZG
+XXM21 out vdd m1_2518_1378# vdd sky130_fd_pr__pfet_01v8_MGSNAN
+R0 m1_1264_902# m1_1264_902# sky130_fd_pr__res_generic_m1 w=0.42 l=7.37
+.ends
+

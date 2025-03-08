@@ -1,0 +1,732 @@
+| units: 500000 tech: sky130A format: MIT
+x a_8512_n2566# R7R8 R6R7 VSS s=121824,1428 d=121824,1428 l=318 w=0 x=8512 y=-2565 sky130_fd_pr__res_high_po_1p41
+x x1.x3.GP4 x1.x5.A R4R5 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=10829 y=-6627 sky130_fd_pr__pfet_01v8_lvt
+x a_14598_n2568# R1R2 VRES VSS s=121824,1428 d=121824,1428 l=318 w=0 x=14598 y=-2567 sky130_fd_pr__res_high_po_1p41
+x x1.x3.GN1 R3R4 x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=11483 y=-8540 sky130_fd_pr__nfet_01v8_lvt
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=13091 y=-11880 sky130_fd_pr__nfet_01v8
+x SELECT0 VDD a_13269_n10181# VDD s=6662,278 d=2268,138 l=30 w=84 x=13619 y=-10072 sky130_fd_pr__pfet_01v8_hvt
+x RSEL2 LADDEROUT x1.x5.A VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=7168 y=-9704 sky130_fd_pr__pfet_01v8_lvt
+x a_13269_n10693# a_13295_n10741# a_13269_n10869# VSS s=2016,132 d=4368,272 l=30 w=84 x=13295 y=-10692 sky130_fd_pr__nfet_01v8
+x RSEL1 a_5016_n3226# a_4962_n3364# VSS s=2268,138 d=4704,280 l=30 w=84 x=5016 y=-3171 sky130_fd_pr__nfet_01v8
+x x1.x3.GN4 R4R5 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=10365 y=-8538 sky130_fd_pr__nfet_01v8_lvt
+x x2.x2.GP4 OUT R7R8 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=18952 y=-12674 sky130_fd_pr__pfet_01v8_lvt
+x x1.x3.GN3 x1.x3.GP3 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=5852 y=-3873 sky130_fd_pr__nfet_01v8
+x x2.x2.GN1 x2.x2.GP1 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=14159 y=-11334 sky130_fd_pr__nfet_01v8
+x RSEL1 x1.x1.nSEL1 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=4764 y=-4333 sky130_fd_pr__nfet_01v8
+x SELECT0 VSS a_13295_n11293# VSS s=4052,198 d=2016,132 l=30 w=84 x=13295 y=-11322 sky130_fd_pr__nfet_01v8
+x a_13269_n11421# x2.x2.GN2 VSS VSS s=6760,364 d=4052,198 l=30 w=130 x=13295 y=-11420 sky130_fd_pr__nfet_01v8
+x x2.x2.GN4 x2.x2.GP4 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=13839 y=-10414 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN4 R4R5 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=10365 y=-6720 sky130_fd_pr__nfet_01v8_lvt
+x RSEL0 x1.x1.nSEL0 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=4764 y=-4609 sky130_fd_pr__nfet_01v8
+x x1.x3.GN1 VSS x1.x3.GP1 VSS s=6760,364 d=3510,184 l=30 w=130 x=5852 y=-4601 sky130_fd_pr__nfet_01v8
+x x1.x3.GN2 x1.x3.GP2 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=5852 y=-4241 sky130_fd_pr__nfet_01v8
+x x2.x2.GP2 OUT VRES VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=16826 y=-14912 sky130_fd_pr__pfet_01v8_lvt
+x RSEL0 a_4962_n3876# VSS VSS s=4368,272 d=4368,272 l=30 w=84 x=4988 y=-3687 sky130_fd_pr__nfet_01v8
+x x1.x3.GP3 x1.x4.A R1R2 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=14087 y=-6633 sky130_fd_pr__pfet_01v8_lvt
+x a_4962_n3876# a_4988_n3924# a_4962_n4052# VSS s=2016,132 d=4368,272 l=30 w=84 x=4988 y=-3875 sky130_fd_pr__nfet_01v8
+x x1.x3.GN1 x1.x3.GP1 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=5852 y=-4517 sky130_fd_pr__nfet_01v8
+x x1.x3.GN3 R5R6 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=9309 y=-8546 sky130_fd_pr__nfet_01v8_lvt
+x x1.x1.nSEL1 VDD a_4962_n5020# VDD s=6662,278 d=2268,138 l=30 w=84 x=5312 y=-4911 sky130_fd_pr__pfet_01v8_hvt
+x RSEL2 x1.x4.A LADDEROUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=9517 y=-11226 sky130_fd_pr__nfet_01v8_lvt
+x x1.x3.GP4 x1.x4.A VRES VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=15143 y=-6625 sky130_fd_pr__pfet_01v8_lvt
+x RSEL0 VDD a_4962_n4604# VDD s=9116,348 d=2436,142 l=30 w=84 x=5354 y=-4425 sky130_fd_pr__pfet_01v8_hvt
+x RSEL0 VSS a_4988_n4476# VSS s=4052,198 d=2016,132 l=30 w=84 x=4988 y=-4505 sky130_fd_pr__nfet_01v8
+x a_4962_n4604# x1.x3.GN2 VSS VSS s=6760,364 d=4052,198 l=30 w=130 x=4988 y=-4603 sky130_fd_pr__nfet_01v8
+x x1.x1.nSEL0 a_4962_n5020# VDD VDD s=2268,138 d=4704,280 l=30 w=84 x=5312 y=-4827 sky130_fd_pr__pfet_01v8_hvt
+x a_13269_n10181# x2.x2.GN4 VSS VSS s=7280,372 d=4472,208 l=30 w=130 x=13295 y=-10180 sky130_fd_pr__nfet_01v8
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=12751 y=-10592 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN2 R6R7 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=8239 y=-6722 sky130_fd_pr__nfet_01v8_lvt
+x x1.x3.GP2 x1.x4.A R2R3 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=13017 y=-8863 sky130_fd_pr__pfet_01v8_lvt
+x x1.x3.GP3 x1.x5.A R5R6 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=9773 y=-8871 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GN3 R3R4 OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=17432 y=-12775 sky130_fd_pr__nfet_01v8_lvt
+x VDD VDD x2.nselect2 VDD s=10400,504 d=5400,254 l=30 w=200 x=12751 y=-10958 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GP1 x1.x5.A R7R8 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=7633 y=-6631 sky130_fd_pr__pfet_01v8_lvt
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=5872 y=-5063 sky130_fd_pr__nfet_01v8
+x SELECT0 VSS x2.x1.nSEL0 VSS s=6760,364 d=3510,184 l=30 w=130 x=13071 y=-11510 sky130_fd_pr__nfet_01v8
+x SELECT1 x2.x1.nSEL1 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=13071 y=-11150 sky130_fd_pr__nfet_01v8
+x RSEL0 VSS x1.x1.nSEL0 VSS s=6760,364 d=3510,184 l=30 w=130 x=4764 y=-4693 sky130_fd_pr__nfet_01v8
+x x1.x3.GN1 R7R8 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=7169 y=-6724 sky130_fd_pr__nfet_01v8_lvt
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=5872 y=-3407 sky130_fd_pr__nfet_01v8
+x x1.x3.GN4 VDD x1.x3.GP4 VDD s=10400,504 d=5400,254 l=30 w=200 x=5532 y=-3681 sky130_fd_pr__pfet_01v8_hvt
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=13839 y=-11880 sky130_fd_pr__pfet_01v8_hvt
+x x2.x1.nSEL0 a_13323_n11699# a_13269_n11837# VSS s=2268,138 d=4704,280 l=30 w=84 x=13323 y=-11644 sky130_fd_pr__nfet_01v8
+x x2.x2.GN4 VSS x2.x2.GP4 VSS s=6760,364 d=3510,184 l=30 w=130 x=14159 y=-10498 sky130_fd_pr__nfet_01v8
+x x1.x3.GN4 VRES x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=14679 y=-6718 sky130_fd_pr__nfet_01v8_lvt
+x a_4962_n3364# x1.x3.GN4 VSS VSS s=7280,372 d=4472,208 l=30 w=130 x=4988 y=-3363 sky130_fd_pr__nfet_01v8
+x RSEL2 VDD x1.x5.GN VDD s=10400,504 d=5400,254 l=30 w=200 x=4444 y=-4141 sky130_fd_pr__pfet_01v8_hvt
+x SELECT0 x2.x1.nSEL0 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=13071 y=-11426 sky130_fd_pr__nfet_01v8
+x x2.x2.GN3 VDD x2.x2.GP3 VDD s=10400,504 d=5400,254 l=30 w=200 x=13839 y=-10774 sky130_fd_pr__pfet_01v8_hvt
+x a_13269_n11421# x2.x2.GN2 VDD VDD s=10400,504 d=9116,348 l=30 w=200 x=13545 y=-11420 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN3 VDD x1.x3.GP3 VDD s=10400,504 d=5400,254 l=30 w=200 x=5532 y=-3957 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN4 x1.x3.GP4 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=5532 y=-3597 sky130_fd_pr__pfet_01v8_hvt
+x RSEL1 VDD x1.x1.nSEL1 VDD s=10400,504 d=5400,254 l=30 w=200 x=4444 y=-4417 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GP1 OUT LADDEROUT VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=15756 y=-14914 sky130_fd_pr__pfet_01v8_lvt
+x RSEL2 x1.x5.GN VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=4444 y=-4057 sky130_fd_pr__pfet_01v8_hvt
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=13091 y=-10592 sky130_fd_pr__nfet_01v8
+x x1.x3.GN3 R1R2 x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=13623 y=-6726 sky130_fd_pr__nfet_01v8_lvt
+x RSEL2 LADDEROUT x1.x5.A VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=9404 y=-9704 sky130_fd_pr__pfet_01v8_lvt
+x a_13269_n10869# x2.x2.GN3 VSS VSS s=6760,364 d=4052,198 l=30 w=130 x=13295 y=-10868 sky130_fd_pr__nfet_01v8
+x SELECT1 VDD a_13269_n10869# VDD s=9116,348 d=2436,142 l=30 w=84 x=13661 y=-10690 sky130_fd_pr__pfet_01v8_hvt
+x x1.x1.nSEL1 VSS a_5016_n4882# VSS s=4472,208 d=2268,138 l=30 w=84 x=5016 y=-4911 sky130_fd_pr__nfet_01v8
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=5532 y=-5063 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN2 VDD x2.x2.GP2 VDD s=10400,504 d=5400,254 l=30 w=200 x=13839 y=-11142 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN2 VDD x1.x3.GP2 VDD s=10400,504 d=5400,254 l=30 w=200 x=5532 y=-4325 sky130_fd_pr__pfet_01v8_hvt
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=13839 y=-10224 sky130_fd_pr__pfet_01v8_hvt
+x x2.x1.nSEL1 VDD a_13269_n11837# VDD s=6662,278 d=2268,138 l=30 w=84 x=13619 y=-11728 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN4 x2.x2.GP4 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=14159 y=-10414 sky130_fd_pr__nfet_01v8
+x x2.x2.GN1 VDD x2.x2.GP1 VDD s=10400,504 d=5400,254 l=30 w=200 x=13839 y=-11418 sky130_fd_pr__pfet_01v8_hvt
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=5532 y=-3407 sky130_fd_pr__pfet_01v8_hvt
+x x1.x1.nSEL0 a_5016_n4882# a_4962_n5020# VSS s=2268,138 d=4704,280 l=30 w=84 x=5016 y=-4827 sky130_fd_pr__nfet_01v8
+x x1.x3.GP1 x1.x4.A R3R4 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=11947 y=-8865 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GN2 x2.x2.GP2 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=13839 y=-11058 sky130_fd_pr__pfet_01v8_hvt
+x a_11572_n1944# R4R5 R3R4 VSS s=121824,1428 d=121824,1428 l=318 w=0 x=11572 y=-1943 sky130_fd_pr__res_high_po_1p41
+x a_4962_n5020# x1.x3.GN1 VDD VDD s=19000,590 d=6662,278 l=30 w=200 x=5238 y=-5019 sky130_fd_pr__pfet_01v8_hvt
+x SELECT1 a_13269_n11245# VSS VSS s=4368,272 d=4368,272 l=30 w=84 x=13295 y=-11056 sky130_fd_pr__nfet_01v8
+x RSEL0 VDD a_4962_n3876# VDD s=2856,152 d=4368,272 l=30 w=84 x=5354 y=-3687 sky130_fd_pr__pfet_01v8_hvt
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=14179 y=-11880 sky130_fd_pr__nfet_01v8
+x a_13269_n11245# a_13295_n11293# a_13269_n11421# VSS s=2016,132 d=4368,272 l=30 w=84 x=13295 y=-11244 sky130_fd_pr__nfet_01v8
+x SELECT1 VDD a_13269_n11245# VDD s=2856,152 d=4368,272 l=30 w=84 x=13661 y=-11056 sky130_fd_pr__pfet_01v8_hvt
+x a_7652_n1968# VSS R7R8 VSS s=121824,1428 d=121824,1428 l=318 w=0 x=7652 y=-1967 sky130_fd_pr__res_high_po_1p41
+x a_4962_n3876# a_4962_n4052# VDD VDD s=2436,142 d=2856,152 l=30 w=84 x=5354 y=-3785 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN2 VRES OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=16362 y=-12769 sky130_fd_pr__nfet_01v8_lvt
+x a_13269_n10181# x2.x2.GN4 VDD VDD s=19000,590 d=6662,278 l=30 w=200 x=13545 y=-10180 sky130_fd_pr__pfet_01v8_hvt
+x a_13269_n11245# a_13269_n11421# VDD VDD s=2436,142 d=2856,152 l=30 w=84 x=13661 y=-11154 sky130_fd_pr__pfet_01v8_hvt
+x RSEL0 VDD a_4962_n3364# VDD s=6662,278 d=2268,138 l=30 w=84 x=5312 y=-3255 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN2 R6R7 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=8239 y=-8540 sky130_fd_pr__nfet_01v8_lvt
+x x2.x2.GN3 R3R4 OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=17432 y=-14593 sky130_fd_pr__nfet_01v8_lvt
+x x1.x3.GP2 x1.x4.A R2R3 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=13017 y=-6627 sky130_fd_pr__pfet_01v8_lvt
+x RSEL2 x1.x4.A LADDEROUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=7699 y=-11226 sky130_fd_pr__nfet_01v8_lvt
+x a_4962_n4052# x1.x3.GN3 VDD VDD s=10400,504 d=9116,348 l=30 w=200 x=5238 y=-4051 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GP3 x1.x5.A R5R6 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=9773 y=-6635 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GP4 OUT R7R8 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=18952 y=-14910 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GN4 R7R8 OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=18488 y=-12767 sky130_fd_pr__nfet_01v8_lvt
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=14179 y=-10224 sky130_fd_pr__nfet_01v8
+x x1.x5.GN x1.x5.A LADDEROUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=7661 y=-10168 sky130_fd_pr__nfet_01v8_lvt
+x RSEL1 a_4962_n4428# VSS VSS s=4368,272 d=4368,272 l=30 w=84 x=4988 y=-4239 sky130_fd_pr__nfet_01v8
+x x2.x2.GP3 OUT R3R4 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=17896 y=-12682 sky130_fd_pr__pfet_01v8_lvt
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=4784 y=-5063 sky130_fd_pr__nfet_01v8
+x x1.x3.GP3 x1.x4.A R1R2 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=14087 y=-8869 sky130_fd_pr__pfet_01v8_lvt
+x a_4962_n4428# a_4988_n4476# a_4962_n4604# VSS s=2016,132 d=4368,272 l=30 w=84 x=4988 y=-4427 sky130_fd_pr__nfet_01v8
+x x1.x3.GN1 R7R8 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=7169 y=-8542 sky130_fd_pr__nfet_01v8_lvt
+x x1.x3.GN4 VRES x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=14679 y=-8536 sky130_fd_pr__nfet_01v8_lvt
+x VDD VSS x2.nselect2 VSS s=6760,364 d=3510,184 l=30 w=130 x=13071 y=-10958 sky130_fd_pr__nfet_01v8
+x a_13269_n11837# x2.x2.GN1 VSS VSS s=7280,372 d=4472,208 l=30 w=130 x=13295 y=-11836 sky130_fd_pr__nfet_01v8
+x VDD x2.nselect2 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=12751 y=-10874 sky130_fd_pr__pfet_01v8_hvt
+x SELECT0 VSS a_13323_n10043# VSS s=4472,208 d=2268,138 l=30 w=84 x=13323 y=-10072 sky130_fd_pr__nfet_01v8
+x x1.x3.GN3 R1R2 x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=13623 y=-8544 sky130_fd_pr__nfet_01v8_lvt
+x a_13269_n10869# x2.x2.GN3 VDD VDD s=10400,504 d=9116,348 l=30 w=200 x=13545 y=-10868 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GP2 x1.x5.A R6R7 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=8703 y=-8865 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GP2 OUT VRES VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=16826 y=-12676 sky130_fd_pr__pfet_01v8_lvt
+x SELECT1 VDD x2.x1.nSEL1 VDD s=10400,504 d=5400,254 l=30 w=200 x=12751 y=-11234 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN3 VSS x2.x2.GP3 VSS s=6760,364 d=3510,184 l=30 w=130 x=14159 y=-10774 sky130_fd_pr__nfet_01v8
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=4444 y=-5063 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN3 x2.x2.GP3 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=13839 y=-10690 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN2 R2R3 x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=12553 y=-8538 sky130_fd_pr__nfet_01v8_lvt
+x SELECT1 VSS a_13295_n10741# VSS s=4052,198 d=2016,132 l=30 w=84 x=13295 y=-10770 sky130_fd_pr__nfet_01v8
+x a_9574_n1944# R6R7 R5R6 VSS s=121824,1428 d=121824,1428 l=318 w=0 x=9574 y=-1943 sky130_fd_pr__res_high_po_1p41
+x x1.x3.GN3 x1.x3.GP3 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=5532 y=-3873 sky130_fd_pr__pfet_01v8_hvt
+x RSEL1 x1.x1.nSEL1 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=4444 y=-4333 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN4 VSS x1.x3.GP4 VSS s=6760,364 d=3510,184 l=30 w=130 x=5852 y=-3681 sky130_fd_pr__nfet_01v8
+x RSEL2 VSS x1.x5.GN VSS s=6760,364 d=3510,184 l=30 w=130 x=4764 y=-4141 sky130_fd_pr__nfet_01v8
+x x1.x3.GP1 x1.x4.A R3R4 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=11947 y=-6629 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GN2 VSS x2.x2.GP2 VSS s=6760,364 d=3510,184 l=30 w=130 x=14159 y=-11142 sky130_fd_pr__nfet_01v8
+x x1.x3.GP1 x1.x5.A R7R8 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=7633 y=-8867 sky130_fd_pr__pfet_01v8_lvt
+x RSEL0 VSS a_5016_n3226# VSS s=4472,208 d=2268,138 l=30 w=84 x=5016 y=-3255 sky130_fd_pr__nfet_01v8
+x x1.x3.GN2 R2R3 x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=12553 y=-6720 sky130_fd_pr__nfet_01v8_lvt
+x a_10494_n2566# R5R6 R4R5 VSS s=121824,1428 d=121824,1428 l=318 w=0 x=10494 y=-2565 sky130_fd_pr__res_high_po_1p41
+x RSEL0 x1.x1.nSEL0 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=4444 y=-4609 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN2 VRES OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=16362 y=-14587 sky130_fd_pr__nfet_01v8_lvt
+x x1.x3.GN3 VSS x1.x3.GP3 VSS s=6760,364 d=3510,184 l=30 w=130 x=5852 y=-3957 sky130_fd_pr__nfet_01v8
+x x2.x2.GN1 VSS x2.x2.GP1 VSS s=6760,364 d=3510,184 l=30 w=130 x=14159 y=-11418 sky130_fd_pr__nfet_01v8
+x x1.x3.GN4 x1.x3.GP4 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=5852 y=-3597 sky130_fd_pr__nfet_01v8
+x RSEL2 x1.x5.GN VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=4764 y=-4057 sky130_fd_pr__nfet_01v8
+x x1.x3.GN2 x1.x3.GP2 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=5532 y=-4241 sky130_fd_pr__pfet_01v8_hvt
+x RSEL1 VSS x1.x1.nSEL1 VSS s=6760,364 d=3510,184 l=30 w=130 x=4764 y=-4417 sky130_fd_pr__nfet_01v8
+x x1.x3.GN1 VDD x1.x3.GP1 VDD s=10400,504 d=5400,254 l=30 w=200 x=5532 y=-4601 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GP3 OUT R3R4 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=17896 y=-14918 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GN2 x2.x2.GP2 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=14159 y=-11058 sky130_fd_pr__nfet_01v8
+x a_4962_n5020# x1.x3.GN1 VSS VSS s=7280,372 d=4472,208 l=30 w=130 x=4988 y=-5019 sky130_fd_pr__nfet_01v8
+x x1.x3.GP4 x1.x5.A R4R5 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=10829 y=-8863 sky130_fd_pr__pfet_01v8_lvt
+x x2.x1.nSEL0 a_13269_n11837# VDD VDD s=2268,138 d=4704,280 l=30 w=84 x=13619 y=-11644 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN1 x2.x2.GP1 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=13839 y=-11334 sky130_fd_pr__pfet_01v8_hvt
+x RSEL1 VSS a_4988_n3924# VSS s=4052,198 d=2016,132 l=30 w=84 x=4988 y=-3953 sky130_fd_pr__nfet_01v8
+x x1.x3.GN1 x1.x3.GP1 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=5532 y=-4517 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN1 R3R4 x1.x4.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=11483 y=-6722 sky130_fd_pr__nfet_01v8_lvt
+x RSEL1 VDD a_4962_n4052# VDD s=9116,348 d=2436,142 l=30 w=84 x=5354 y=-3873 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN2 VSS x1.x3.GP2 VSS s=6760,364 d=3510,184 l=30 w=130 x=5852 y=-4325 sky130_fd_pr__nfet_01v8
+x x2.x2.GN4 R7R8 OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=18488 y=-14585 sky130_fd_pr__nfet_01v8_lvt
+x SELECT0 VDD a_13269_n11421# VDD s=9116,348 d=2436,142 l=30 w=84 x=13661 y=-11242 sky130_fd_pr__pfet_01v8_hvt
+x SELECT0 a_13269_n10693# VSS VSS s=4368,272 d=4368,272 l=30 w=84 x=13295 y=-10504 sky130_fd_pr__nfet_01v8
+x SELECT0 VDD a_13269_n10693# VDD s=2856,152 d=4368,272 l=30 w=84 x=13661 y=-10504 sky130_fd_pr__pfet_01v8_hvt
+x a_13269_n10693# a_13269_n10869# VDD VDD s=2436,142 d=2856,152 l=30 w=84 x=13661 y=-10602 sky130_fd_pr__pfet_01v8_hvt
+x RSEL1 a_4962_n3364# VDD VDD s=2268,138 d=4704,280 l=30 w=84 x=5312 y=-3171 sky130_fd_pr__pfet_01v8_hvt
+x SELECT1 a_13323_n10043# a_13269_n10181# VSS s=2268,138 d=4704,280 l=30 w=84 x=13323 y=-9988 sky130_fd_pr__nfet_01v8
+x VDD VSS VSS VSS d=5720,324 l=210 w=110 x=4784 y=-3775 sky130_fd_pr__nfet_01v8
+x a_4962_n4052# x1.x3.GN3 VSS VSS s=6760,364 d=4052,198 l=30 w=130 x=4988 y=-4051 sky130_fd_pr__nfet_01v8
+x a_13269_n11837# x2.x2.GN1 VDD VDD s=19000,590 d=6662,278 l=30 w=200 x=13545 y=-11836 sky130_fd_pr__pfet_01v8_hvt
+x RSEL1 VDD a_4962_n4428# VDD s=2856,152 d=4368,272 l=30 w=84 x=5354 y=-4239 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GP1 OUT LADDEROUT VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=15756 y=-12678 sky130_fd_pr__pfet_01v8_lvt
+x SELECT1 a_13269_n10181# VDD VDD s=2268,138 d=4704,280 l=30 w=84 x=13619 y=-9988 sky130_fd_pr__pfet_01v8_hvt
+x a_4962_n4428# a_4962_n4604# VDD VDD s=2436,142 d=2856,152 l=30 w=84 x=5354 y=-4337 sky130_fd_pr__pfet_01v8_hvt
+x a_4962_n4604# x1.x3.GN2 VDD VDD s=10400,504 d=9116,348 l=30 w=200 x=5238 y=-4603 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GN3 R5R6 x1.x5.A VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=9309 y=-6728 sky130_fd_pr__nfet_01v8_lvt
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=12751 y=-11880 sky130_fd_pr__pfet_01v8_hvt
+x x1.x3.GP4 x1.x4.A VRES VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=15143 y=-8861 sky130_fd_pr__pfet_01v8_lvt
+x a_12562_n2566# R3R4 R2R3 VSS s=121824,1428 d=121824,1428 l=318 w=0 x=12562 y=-2565 sky130_fd_pr__res_high_po_1p41
+x x1.x3.GP2 x1.x5.A R6R7 VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=8703 y=-6629 sky130_fd_pr__pfet_01v8_lvt
+x VDD x2.nselect2 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=13071 y=-10874 sky130_fd_pr__nfet_01v8
+x RSEL0 VDD x1.x1.nSEL0 VDD s=10400,504 d=5400,254 l=30 w=200 x=4444 y=-4693 sky130_fd_pr__pfet_01v8_hvt
+x VSS VDD VDD VDD d=9048,452 l=210 w=174 x=4444 y=-3775 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN1 LADDEROUT OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=15292 y=-14589 sky130_fd_pr__nfet_01v8_lvt
+x x1.x5.GN x1.x5.A LADDEROUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=9479 y=-10168 sky130_fd_pr__nfet_01v8_lvt
+x SELECT1 VSS x2.x1.nSEL1 VSS s=6760,364 d=3510,184 l=30 w=130 x=13071 y=-11234 sky130_fd_pr__nfet_01v8
+x x1.x5.GN LADDEROUT x1.x4.A VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=9442 y=-10762 sky130_fd_pr__pfet_01v8_lvt
+x SELECT0 VDD x2.x1.nSEL0 VDD s=10400,504 d=5400,254 l=30 w=200 x=12751 y=-11510 sky130_fd_pr__pfet_01v8_hvt
+x x2.x1.nSEL1 VSS a_13323_n11699# VSS s=4472,208 d=2268,138 l=30 w=84 x=13323 y=-11728 sky130_fd_pr__nfet_01v8
+x SELECT1 x2.x1.nSEL1 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=12751 y=-11150 sky130_fd_pr__pfet_01v8_hvt
+x x2.x2.GN3 x2.x2.GP3 VSS VSS s=3510,184 d=6760,364 l=30 w=130 x=14159 y=-10690 sky130_fd_pr__nfet_01v8
+x x1.x5.GN LADDEROUT x1.x4.A VDD s=116000,4116 d=116000,4116 l=70 w=2000 x=7206 y=-10762 sky130_fd_pr__pfet_01v8_lvt
+x x2.x2.GN1 LADDEROUT OUT VSS s=92800,3316 d=92800,3316 l=70 w=1600 x=15292 y=-12771 sky130_fd_pr__nfet_01v8_lvt
+x a_13640_n1956# R2R3 R1R2 VSS s=121824,1428 d=121824,1428 l=318 w=0 x=13640 y=-1955 sky130_fd_pr__res_high_po_1p41
+x x2.x2.GN4 VDD x2.x2.GP4 VDD s=10400,504 d=5400,254 l=30 w=200 x=13839 y=-10498 sky130_fd_pr__pfet_01v8_hvt
+x a_4962_n3364# x1.x3.GN4 VDD VDD s=19000,590 d=6662,278 l=30 w=200 x=5238 y=-3363 sky130_fd_pr__pfet_01v8_hvt
+x SELECT0 x2.x1.nSEL0 VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=12751 y=-11426 sky130_fd_pr__pfet_01v8_hvt
+C VRES VDD 3.2
+C x1.x4.A R2R3 4.5
+C R4R5 x1.x5.A 4.5
+C x1.x3.GP2 x1.x3.GN3 4.6
+C x1.x3.GP3 R5R6 4.1
+C x1.x5.GN x1.x5.A 4.0
+C x1.x5.A VDD 14.2
+C VRES x1.x3.GP4 4.4
+C x2.x2.GP3 x2.x2.GN3 2.9
+C x1.x3.GP2 VDD 3.3
+C LADDEROUT OUT 4.5
+C R5R6 x1.x3.GN3 4.1
+C R4R5 R5R6 2.3
+C x2.x2.GP2 x2.x2.GN2 2.1
+C x1.x5.GN RSEL2 4.0
+C VDD RSEL2 4.4
+C R3R4 R7R8 5.7
+C LADDEROUT VDD 9.1
+C R3R4 x1.x3.GN1 4.0
+C x1.x4.A x1.x5.GN 4.1
+C R3R4 x1.x3.GP1 4.2
+C LADDEROUT x2.x2.GN1 4.7
+C x1.x4.A VDD 15.0
+C x1.x3.GP1 x1.x3.GN2 4.6
+C x1.x3.GN1 R7R8 4.5
+C x1.x3.GP1 R7R8 4.1
+C VRES R1R2 2.3
+C VRES R3R4 3.2
+C x2.x2.GP1 x2.x2.GN2 2.6
+C x1.x3.GP1 x1.x3.GN1 3.0
+C VRES R7R8 2.3
+C LADDEROUT x2.x2.GP1 4.1
+C x2.x2.GN4 R7R8 4.0
+C x1.x3.GP3 x1.x3.GN3 5.0
+C x2.x2.GP4 R7R8 4.2
+C x1.x3.GP3 x1.x3.GN4 5.6
+C x1.x5.A R7R8 4.5
+C RSEL1 VDD 2.7
+C x1.x3.GN2 x1.x3.GP2 3.8
+C R3R4 x2.x2.GP3 4.1
+C x1.x3.GP3 VDD 3.2
+C OUT VDD 12.0
+C x2.x2.GP4 x2.x2.GN4 3.5
+C R4R5 x1.x3.GN4 4.2
+C x2.x2.GP2 x2.x2.GN3 2.7
+C x2.x2.GP3 x2.x2.GN4 3.4
+C R6R7 x1.x3.GN2 4.0
+C SELECT1 VDD 3.2
+C x1.x4.A R1R2 4.5
+C x1.x5.GN VDD 3.7
+C R6R7 R7R8 2.3
+C R3R4 x1.x4.A 4.5
+C R4R5 x1.x3.GP4 4.4
+C R3R4 R2R3 2.5
+C x1.x3.GN4 x1.x3.GP4 5.6
+C x1.x3.GN2 R2R3 4.0
+C VRES x2.x2.GN2 4.0
+C R5R6 x1.x5.A 4.5
+C x1.x3.GP4 VDD 2.9
+C VRES x1.x4.A 4.5
+C x1.x5.A RSEL2 5.7
+C R6R7 x1.x5.A 4.5
+C LADDEROUT x1.x5.A 4.5
+C x1.x3.GP3 R1R2 4.3
+C x1.x4.A x1.x5.A 2.1
+C R6R7 x1.x3.GP2 4.1
+C R3R4 OUT 4.5
+C OUT R7R8 4.5
+C x1.x3.GP2 R2R3 4.2
+C x1.x3.GN3 R1R2 4.0
+C VRES OUT 4.5
+C R6R7 R5R6 2.0
+C R3R4 x2.x2.GN3 4.0
+C R3R4 VDD 3.3
+C x1.x4.A RSEL2 5.0
+C VRES x2.x2.GP2 4.1
+C VDD R7R8 3.2
+C VRES x1.x3.GN4 4.1
+C LADDEROUT x1.x4.A 6.5
+C x1.x3.GP1 VDD 3.3
+C OUT0 10.7
+R OUT 96662
+= OUT x2.x2.x1.Z
+= OUT x2.x2.x2.Z
+= OUT x2.x2.x3.Z
+= OUT x2.x2.x4.Z
+= OUT x2.x2.Z4
+= OUT x2.x2.Z3
+= OUT x2.x2.Z2
+= OUT x2.x2.Z1
+= OUT x2.Z4
+= OUT x2.Z3
+= OUT x2.Z2
+= OUT x2.Z1
+R SELECT0 4089
+= SELECT0 x2.x1.x1.A
+= SELECT0 x2.x1.x8.B
+= SELECT0 x2.x1.x9.A_N
+= SELECT0 x2.x1.x10.B
+= SELECT0 x2.x1.SEL0
+= SELECT0 x2.select0
+R SELECT1 4119
+= SELECT1 x2.x1.x2.A
+= SELECT1 x2.x1.x8.A_N
+= SELECT1 x2.x1.x9.B
+= SELECT1 x2.x1.x10.A
+= SELECT1 x2.x1.SEL1
+= SELECT1 x2.select1
+C LADDEROUT0 11.6
+R LADDEROUT 72346
+= LADDEROUT x1.x4.Z
+= LADDEROUT x1.x5.Z
+= LADDEROUT x1.Z
+= LADDEROUT x2.x2.x1.A
+= LADDEROUT x2.x2.A1
+= LADDEROUT x2.A1
+C RSEL20 5.8
+R RSEL2 7499
+= RSEL2 x1.x1.x18.A
+= RSEL2 x1.x1.SEL2
+= RSEL2 x1.x4.GN
+= RSEL2 x1.x5.GP
+= RSEL2 x1.select2
+R RSEL0 4090
+= RSEL0 x1.x1.x1.A
+= RSEL0 x1.x1.x8.B
+= RSEL0 x1.x1.x9.A_N
+= RSEL0 x1.x1.x10.B
+= RSEL0 x1.x1.SEL0
+= RSEL0 x1.select0
+R RSEL1 4120
+= RSEL1 x1.x1.x2.A
+= RSEL1 x1.x1.x8.A_N
+= RSEL1 x1.x1.x9.B
+= RSEL1 x1.x1.x10.A
+= RSEL1 x1.x1.SEL1
+= RSEL1 x1.select1
+C VRES0 13.7
+R VRES 46923
+= VRES x1.x3.x4.A
+= VRES x1.x3.A4
+= VRES x1.A8
+= VRES x2.x2.x2.A
+= VRES x2.x2.A2
+= VRES x2.A2
+C VDD0 175.9
+R VDD 784181
+= VDD x1.x1.x1.VPWR
+= VDD x1.x1.x1.VPB
+= VDD x1.x1.x2.VPWR
+= VDD x1.x1.x2.VPB
+= VDD x1.x1.x3.VPWR
+= VDD x1.x1.x4.VPWR
+= VDD x1.x1.x5.VPWR
+= VDD x1.x1.x6.VPWR
+= VDD x1.x1.x7.VPWR
+= VDD x1.x1.x7.VPB
+= VDD x1.x1.x8.VPWR
+= VDD x1.x1.x8.VPB
+= VDD x1.x1.x9.VPWR
+= VDD x1.x1.x9.VPB
+= VDD x1.x1.x10.VPWR
+= VDD x1.x1.x10.VPB
+= VDD x1.x1.x11.VPWR
+= VDD x1.x1.x11.VPB
+= VDD x1.x1.x12.VPWR
+= VDD x1.x1.x12.VPB
+= VDD x1.x1.x13.VPWR
+= VDD x1.x1.x13.VPB
+= VDD x1.x1.x14.VPWR
+= VDD x1.x1.x14.VPB
+= VDD x1.x1.x15.VPWR
+= VDD x1.x1.x15.VPB
+= VDD x1.x1.x16.VPWR
+= VDD x1.x1.x16.VPB
+= VDD x1.x1.x17.VPWR
+= VDD x1.x1.x17.VPB
+= VDD x1.x1.x18.VPWR
+= VDD x1.x1.x18.VPB
+= VDD x1.x1.x19.VPWR
+= VDD x1.x1.x19.VPB
+= VDD x1.x1.VPWR
+= VDD x1.x2.x1.VDD
+= VDD x1.x2.x2.VDD
+= VDD x1.x2.x3.VDD
+= VDD x1.x2.x4.VDD
+= VDD x1.x2.VDD
+= VDD x1.x3.x1.VDD
+= VDD x1.x3.x2.VDD
+= VDD x1.x3.x3.VDD
+= VDD x1.x3.x4.VDD
+= VDD x1.x3.VDD
+= VDD x1.x4.VDD
+= VDD x1.x5.VDD
+= VDD x1.VDD
+= VDD x2.x1.x1.VPWR
+= VDD x2.x1.x1.VPB
+= VDD x2.x1.x2.VPWR
+= VDD x2.x1.x2.VPB
+= VDD x2.x1.x3.VPWR
+= VDD x2.x1.x4.VPWR
+= VDD x2.x1.x5.VPWR
+= VDD x2.x1.x6.VPWR
+= VDD x2.x1.x7.VPWR
+= VDD x2.x1.x7.VPB
+= VDD x2.x1.x8.VPWR
+= VDD x2.x1.x8.VPB
+= VDD x2.x1.x9.VPWR
+= VDD x2.x1.x9.VPB
+= VDD x2.x1.x10.VPWR
+= VDD x2.x1.x10.VPB
+= VDD x2.x1.x11.VPWR
+= VDD x2.x1.x11.VPB
+= VDD x2.x1.x12.VPWR
+= VDD x2.x1.x12.VPB
+= VDD x2.x1.x13.VPWR
+= VDD x2.x1.x13.VPB
+= VDD x2.x1.x14.VPWR
+= VDD x2.x1.x14.VPB
+= VDD x2.x1.x15.VPWR
+= VDD x2.x1.x15.VPB
+= VDD x2.x1.x16.VPWR
+= VDD x2.x1.x16.VPB
+= VDD x2.x1.x17.VPWR
+= VDD x2.x1.x17.VPB
+= VDD x2.x1.x18.VPWR
+= VDD x2.x1.x18.VPB
+= VDD x2.x1.x18.A
+= VDD x2.x1.x19.VPWR
+= VDD x2.x1.x19.VPB
+= VDD x2.x1.VPWR
+= VDD x2.x1.SEL2
+= VDD x2.x2.x1.VDD
+= VDD x2.x2.x2.VDD
+= VDD x2.x2.x3.VDD
+= VDD x2.x2.x4.VDD
+= VDD x2.x2.VDD
+= VDD x2.VDD
+= VDD x2.select2
+R a_13323_n11699# 187
+R a_13269_n11837# 1517
+R x2.x1.nSEL0 1879
+= x2.x1.nSEL0 x2.x1.x1.Y
+= x2.x1.nSEL0 x2.x1.x7.A
+R x2.x2.GP1 4444
+= x2.x2.GP1 x2.x1.x11.Y
+= x2.x2.GP1 x2.x1.gpo0
+= x2.x2.GP1 x2.x2.x1.GP
+C x2.x2.GN10 4.8
+R x2.x2.GN1 4858
+= x2.x2.GN1 x2.x1.x7.X
+= x2.x2.GN1 x2.x1.x11.A
+= x2.x2.GN1 x2.x1.gno0
+= x2.x2.GN1 x2.x2.x1.GN
+R a_13295_n11293# 210
+R a_13269_n11421# 1427
+R x2.x1.nSEL1 1848
+= x2.x1.nSEL1 x2.x1.x2.Y
+= x2.x1.nSEL1 x2.x1.x7.B
+R x2.x2.GP2 4446
+= x2.x2.GP2 x2.x1.x12.Y
+= x2.x2.GP2 x2.x1.gpo1
+= x2.x2.GP2 x2.x2.x2.GP
+C x2.x2.GN20 3.9
+R x2.x2.GN2 5257
+= x2.x2.GN2 x2.x1.x8.X
+= x2.x2.GN2 x2.x1.x12.A
+= x2.x2.GN2 x2.x1.gno1
+= x2.x2.GN2 x2.x2.x2.GN
+R a_13269_n11245# 1547
+R x2.nselect2 1128
+= x2.nselect2 x2.x1.x18.Y
+= x2.nselect2 x2.x1.nSEL2
+R x2.x2.GP3 4450
+= x2.x2.GP3 x2.x1.x13.Y
+= x2.x2.GP3 x2.x1.gpo2
+= x2.x2.GP3 x2.x2.x3.GP
+R a_13295_n10741# 210
+C x2.x2.GN30 3.7
+R x2.x2.GN3 5257
+= x2.x2.GN3 x2.x1.x9.X
+= x2.x2.GN3 x2.x1.x13.A
+= x2.x2.GN3 x2.x1.gno2
+= x2.x2.GN3 x2.x2.x3.GN
+R a_13269_n10869# 1427
+C x2.x2.GP40 3.3
+R x2.x2.GP4 4449
+= x2.x2.GP4 x2.x1.x14.Y
+= x2.x2.GP4 x2.x1.gpo3
+= x2.x2.GP4 x2.x2.x4.GP
+R a_13269_n10693# 1547
+C x2.x2.GN40 3.8
+R x2.x2.GN4 4866
+= x2.x2.GN4 x2.x1.x10.X
+= x2.x2.GN4 x2.x1.x14.A
+= x2.x2.GN4 x2.x1.gno3
+= x2.x2.GN4 x2.x2.x4.GN
+R a_13323_n10043# 187
+R a_13269_n10181# 1517
+C x1.x4.A0 16.1
+R x1.x4.A 121015
+= x1.x4.A x1.x3.x1.Z
+= x1.x4.A x1.x3.x2.Z
+= x1.x4.A x1.x3.x3.Z
+= x1.x4.A x1.x3.x4.Z
+= x1.x4.A x1.x3.Z4
+= x1.x4.A x1.x3.Z3
+= x1.x4.A x1.x3.Z2
+= x1.x4.A x1.x3.Z1
+C x1.x5.A0 13.9
+R x1.x5.A 121010
+= x1.x5.A x1.x2.x1.Z
+= x1.x5.A x1.x2.x2.Z
+= x1.x5.A x1.x2.x3.Z
+= x1.x5.A x1.x2.x4.Z
+= x1.x5.A x1.x2.Z4
+= x1.x5.A x1.x2.Z3
+= x1.x5.A x1.x2.Z2
+= x1.x5.A x1.x2.Z1
+R a_5016_n4882# 187
+R a_4962_n5020# 1517
+R x1.x1.nSEL0 1879
+= x1.x1.nSEL0 x1.x1.x1.Y
+= x1.x1.nSEL0 x1.x1.x7.A
+C x1.x3.GP10 4.0
+R x1.x3.GP1 7883
+= x1.x3.GP1 x1.x1.x11.Y
+= x1.x3.GP1 x1.x1.gpo0
+= x1.x3.GP1 x1.x2.x1.GP
+= x1.x3.GP1 x1.x2.GP1
+= x1.x3.GP1 x1.x3.x1.GP
+C x1.x3.GN10 8.9
+R x1.x3.GN1 7699
+= x1.x3.GN1 x1.x1.x7.X
+= x1.x3.GN1 x1.x1.x11.A
+= x1.x3.GN1 x1.x1.gno0
+= x1.x3.GN1 x1.x2.x1.GN
+= x1.x3.GN1 x1.x2.GN1
+= x1.x3.GN1 x1.x3.x1.GN
+R a_4988_n4476# 210
+R a_4962_n4604# 1427
+R x1.x1.nSEL1 1848
+= x1.x1.nSEL1 x1.x1.x2.Y
+= x1.x1.nSEL1 x1.x1.x7.B
+C x1.x3.GP20 3.2
+R x1.x3.GP2 7889
+= x1.x3.GP2 x1.x1.x12.Y
+= x1.x3.GP2 x1.x1.gpo1
+= x1.x3.GP2 x1.x2.x2.GP
+= x1.x3.GP2 x1.x2.GP2
+= x1.x3.GP2 x1.x3.x2.GP
+C x1.x3.GN20 7.2
+R x1.x3.GN2 8116
+= x1.x3.GN2 x1.x1.x8.X
+= x1.x3.GN2 x1.x1.x12.A
+= x1.x3.GN2 x1.x1.gno1
+= x1.x3.GN2 x1.x2.x2.GN
+= x1.x3.GN2 x1.x2.GN2
+= x1.x3.GN2 x1.x3.x2.GN
+R a_4962_n4428# 1547
+C x1.x5.GN0 5.8
+R x1.x5.GN 7301
+= x1.x5.GN x1.x1.x18.Y
+= x1.x5.GN x1.x1.nSEL2
+= x1.x5.GN x1.x4.GP
+C x1.x3.GP30 3.2
+R x1.x3.GP3 7890
+= x1.x3.GP3 x1.x1.x13.Y
+= x1.x3.GP3 x1.x1.gpo2
+= x1.x3.GP3 x1.x2.x3.GP
+= x1.x3.GP3 x1.x2.GP3
+= x1.x3.GP3 x1.x3.x3.GP
+R a_4988_n3924# 210
+C x1.x3.GN30 6.8
+R x1.x3.GN3 8114
+= x1.x3.GN3 x1.x1.x9.X
+= x1.x3.GN3 x1.x1.x13.A
+= x1.x3.GN3 x1.x1.gno2
+= x1.x3.GN3 x1.x2.x3.GN
+= x1.x3.GN3 x1.x2.GN3
+= x1.x3.GN3 x1.x3.x3.GN
+R a_4962_n4052# 1427
+C x1.x3.GP40 5.7
+R x1.x3.GP4 7884
+= x1.x3.GP4 x1.x1.x14.Y
+= x1.x3.GP4 x1.x1.gpo3
+= x1.x3.GP4 x1.x2.x4.GP
+= x1.x3.GP4 x1.x2.GP4
+= x1.x3.GP4 x1.x3.x4.GP
+R a_4962_n3876# 1547
+C x1.x3.GN40 7.0
+R x1.x3.GN4 7703
+= x1.x3.GN4 x1.x1.x10.X
+= x1.x3.GN4 x1.x1.x14.A
+= x1.x3.GN4 x1.x1.gno3
+= x1.x3.GN4 x1.x2.x4.GN
+= x1.x3.GN4 x1.x2.GN4
+= x1.x3.GN4 x1.x3.x4.GN
+R a_5016_n3226# 187
+R a_4962_n3364# 1517
+R a_14598_n2568# 361
+R a_12562_n2566# 361
+R a_10494_n2566# 361
+R a_8512_n2566# 361
+C R1R20 5.9
+R R1R2 22678
+= R1R2 x1.x3.x3.A
+= R1R2 x1.x3.A3
+= R1R2 x1.A7
+R a_13640_n1956# 361
+C R2R30 6.3
+R R2R3 22678
+= R2R3 x1.x3.x2.A
+= R2R3 x1.x3.A2
+= R2R3 x1.A6
+C R3R40 15.1
+R R3R4 46423
+= R3R4 x1.x3.x1.A
+= R3R4 x1.x3.A1
+= R3R4 x1.A5
+= R3R4 x2.x2.x3.A
+= R3R4 x2.x2.A3
+= R3R4 x2.A3
+R a_11572_n1944# 361
+C R4R50 5.9
+R R4R5 22678
+= R4R5 x1.x2.x4.A
+= R4R5 x1.x2.A4
+= R4R5 x1.A4
+C R5R60 5.9
+R R5R6 22678
+= R5R6 x1.x2.x3.A
+= R5R6 x1.x2.A3
+= R5R6 x1.A3
+R a_9574_n1944# 361
+C R6R70 6.9
+R R6R7 22678
+= R6R7 x1.x2.x2.A
+= R6R7 x1.x2.A2
+= R6R7 x1.A2
+C R7R80 20.5
+R R7R8 46425
+= R7R8 x1.x2.x1.A
+= R7R8 x1.x2.A1
+= R7R8 x1.A1
+= R7R8 x2.x2.x4.A
+= R7R8 x2.x2.A4
+= R7R8 x2.A4
+R a_7652_n1968# 361
+R VSS 906634
+= VSS x1.x1.x1.VGND
+= VSS x1.x1.x2.VNB
+= VSS x1.x1.x2.VGND
+= VSS x1.x1.x7.VNB
+= VSS x1.x1.x3.VGND
+= VSS x1.x1.x4.VGND
+= VSS x1.x1.x5.VGND
+= VSS x1.x1.x6.VGND
+= VSS x1.x1.x7.VGND
+= VSS x1.x1.x8.VNB
+= VSS x1.x1.x8.VGND
+= VSS x1.x1.x9.VNB
+= VSS x1.x1.x9.VGND
+= VSS x1.x1.x10.VNB
+= VSS x1.x1.x10.VGND
+= VSS x1.x1.x11.VNB
+= VSS x1.x1.x11.VGND
+= VSS x1.x1.x12.VNB
+= VSS x1.x1.x12.VGND
+= VSS x1.x1.x13.VNB
+= VSS x1.x1.x13.VGND
+= VSS x1.x1.x14.VNB
+= VSS x1.x1.x14.VGND
+= VSS x1.x1.x15.VNB
+= VSS x1.x1.x15.VGND
+= VSS x1.x1.x16.VNB
+= VSS x1.x1.x16.VGND
+= VSS x1.x1.x17.VNB
+= VSS x1.x1.x17.VGND
+= VSS x1.x1.x18.VNB
+= VSS x1.x1.x18.VGND
+= VSS x1.x1.x19.VNB
+= VSS x1.x1.x19.VGND
+= VSS x2.x1.x1.VNB
+= VSS x1.x1.VGND
+= VSS x1.x2.x1.VSS
+= VSS x1.x2.x2.VSS
+= VSS x1.x2.x3.VSS
+= VSS x1.x2.x4.VSS
+= VSS x1.x2.VSS
+= VSS x1.x3.x1.VSS
+= VSS x1.x3.x2.VSS
+= VSS x1.x3.x3.VSS
+= VSS x1.x3.x4.VSS
+= VSS x1.x3.VSS
+= VSS x1.x4.VSS
+= VSS x1.x5.VSS
+= VSS x1.VSS
+= VSS x2.x1.x1.VGND
+= VSS x2.x1.x2.VNB
+= VSS x2.x1.x2.VGND
+= VSS x2.x1.x7.VNB
+= VSS x2.x1.x3.VGND
+= VSS x2.x1.x4.VGND
+= VSS x2.x1.x5.VGND
+= VSS x2.x1.x6.VGND
+= VSS x2.x1.x7.VGND
+= VSS x2.x1.x8.VNB
+= VSS x2.x1.x8.VGND
+= VSS x2.x1.x9.VNB
+= VSS x2.x1.x9.VGND
+= VSS x2.x1.x10.VNB
+= VSS x2.x1.x10.VGND
+= VSS x2.x1.x11.VNB
+= VSS x2.x1.x11.VGND
+= VSS x2.x1.x12.VNB
+= VSS x2.x1.x12.VGND
+= VSS x2.x1.x13.VNB
+= VSS x2.x1.x13.VGND
+= VSS x2.x1.x14.VNB
+= VSS x2.x1.x14.VGND
+= VSS x2.x1.x15.VNB
+= VSS x2.x1.x15.VGND
+= VSS x2.x1.x16.VNB
+= VSS x2.x1.x16.VGND
+= VSS x2.x1.x17.VNB
+= VSS x2.x1.x17.VGND
+= VSS x2.x1.x18.VNB
+= VSS x2.x1.x18.VGND
+= VSS x2.x1.x19.VNB
+= VSS x1.x1.x1.VNB
+= VSS x2.x1.x19.VGND
+= VSS x2.x1.VGND
+= VSS x2.x2.x1.VSS
+= VSS x2.x2.x2.VSS
+= VSS x2.x2.x3.VSS
+= VSS x2.x2.x4.VSS
+= VSS x2.x2.VSS
+= VSS x2.VSS

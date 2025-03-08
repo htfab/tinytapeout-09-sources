@@ -1,0 +1,84 @@
+ Netlist File
+
+ **vnb2**
+XM1/d
+XM2/s
+XM10/d
+
+ **vnb3**
+XM1/g
+XM3/d
+XM4/g
+XM16/d
+
+ **vss**
+XM1/s
+XM4/s
+XM5/s
+XM11/s
+x2/vss
+XM14/s
+XM15/s
+
+ **out**
+XM2/d
+XM8/d
+
+ **vnb**
+XM2/g
+XM3/g
+XM11/d
+XM11/g
+XM13/d
+
+ **net1**
+XM3/s
+XM4/d
+
+ **vpb2**
+XM5/d
+XM8/s
+XM6/d
+
+ **upb**
+XM5/g
+
+ **vpb**
+XM8/g
+XM7/g
+XM12/d
+XM12/g
+XM14/d
+
+ **vdd**
+XM6/s
+XM9/s
+XM10/s
+XM12/s
+x2/vdd
+x2/XR1/r1
+XM13/s
+XM16/s
+
+ **vpb3**
+XM6/g
+XM7/d
+XM9/g
+XM15/d
+
+ **net2**
+XM7/s
+XM9/d
+
+ **down**
+XM10/g
+
+ **G_vnb**
+x2/vnb
+XM14/g
+XM15/g
+
+ **G_vpb**
+x2/vpb
+XM13/g
+XM16/g

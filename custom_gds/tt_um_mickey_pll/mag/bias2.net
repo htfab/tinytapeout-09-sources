@@ -1,0 +1,37 @@
+ Netlist File
+
+ **vpb**
+XM1/d
+XM3/d
+XM3/g
+XM4/g
+XM5/g
+XM7/s
+
+ **vnb**
+XM1/g
+XM2/d
+XM2/g
+XM4/d
+XM7/d
+
+ **vss**
+XM1/s
+XM2/s
+XM6/s
+
+ **vdd**
+XM3/s
+XR1/r1
+XM5/s
+
+ **net1**
+XM4/s
+XR1/r0
+
+ **net2**
+XM5/d
+XM6/d
+XM6/g
+XM7/g
+

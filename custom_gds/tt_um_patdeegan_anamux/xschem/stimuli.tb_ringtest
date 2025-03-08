@@ -1,0 +1,35 @@
+unit n
+voltage VCC
+slope 1
+format hspice_simple
+
+param eval 20
+
+beginfile stimuli_tb_ringtest.cir
+set vss 0
+set vcc 1
+set sel0 0
+set sel1 0
+set en_r 1
+set en_c 1
+s eval*2
+set sel0 1
+set sel1 0
+s eval
+set sel0 0
+set sel1 1
+s eval*8
+set sel0 1
+set sel1 1
+s eval*32
+
+set sel0 0
+set sel1 1
+s eval*5
+set en_c 0
+s eval*3
+set en_r 0
+s eval*3
+
+
+endfile
